@@ -35,8 +35,17 @@ extern "C" {
 #include <stdbool.h>
 #include <stdint.h>
 #include <stdlib.h>
-#include <alloca.h>
 #include <string.h>
+
+
+
+#ifdef __linux__
+#include <alloca.h>
+#endif
+#ifdef _WIN64
+#include <windows.h>
+#include <malloc.h>
+#endif
 
 typedef uint64_t lsss_z;
 
@@ -73,6 +82,11 @@ struct lsss_ctx {
 
 // Use assembly for inner functions optimization
 #define LSSS_GCC_ASSEMBLY
+
+#if defined(_WIN64) && defined(LSSS_GCC_ASSEMBLY)
+#undef LSSS_GCC_ASSEMBLY
+#endif
+
 
 
 // API errors 

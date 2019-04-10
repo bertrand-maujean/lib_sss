@@ -24,7 +24,9 @@
 #include "lib_sss.h"
 #include <time.h>
 #include <stdio.h>
+#ifdef __linux__
 #include <sys/time.h>
+#endif
 #include <stdio.h>
 
 #define ARRAY_LENGTH(array) (sizeof((array))/sizeof((array)[0]))
@@ -33,10 +35,42 @@
 /** Testing parameters */
 
 //>>> Size and sharing threshold to test
-int bits_a_tester[] = { 64, 128, 256, 384, 512, 768, 1024, 2048, 4096, 8192 };
-int thresh_a_tester[] = { 3, 4, 5 , 6, 8, 10 };
-#define NTESTSP 5 /* number of test loop for each thresh/bits combination in performance test */
-#define NTESTSF 1000 /* number of tests in fuzzing test */
+int bits_a_tester[] = { 64, 128, 256, 384, 512, 768, 1024, 2048/*, 4096, 8192*/ };
+int thresh_a_tester[] = { 3, 4, 5 , 6/*, 8, 10*/ };
+#define NTESTSP 2 /* number of test loop for each thresh/bits combination in performance test */
+#define NTESTSF 100 /* number of tests in fuzzing test */
+
+
+
+#ifdef _WIN64
+
+// substitut de gettimeofday() trouvé ici :
+// http://mathieuturcotte.ca/textes/windows-gettimeofday/
+int gettimeofday(struct timeval* p, void* tz) {
+	ULARGE_INTEGER ul; // As specified on MSDN.
+	FILETIME ft;
+
+	// Returns a 64-bit value representing the number of
+	// 100-nanosecond intervals since January 1, 1601 (UTC).
+	GetSystemTimeAsFileTime(&ft);
+
+	// Fill ULARGE_INTEGER low and high parts.
+	ul.LowPart = ft.dwLowDateTime;
+	ul.HighPart = ft.dwHighDateTime;
+	// Convert to microseconds.
+	ul.QuadPart /= 10ULL;
+	// Remove Windows to UNIX Epoch delta.
+	ul.QuadPart -= 11644473600000000ULL;
+	// Modulo to retrieve the microseconds.
+	p->tv_usec = (long)(ul.QuadPart % 1000000LL);
+	// Divide to retrieve the seconds.
+	p->tv_sec = (long)(ul.QuadPart / 1000000LL);
+
+	return 0;
+}
+
+#endif
+
 
 /** 
 \brief Give the time of day in millisecond from midnight
@@ -48,6 +82,11 @@ uint64_t temps() {
 	gettimeofday(&tv, NULL);
 	return (uint64_t)tv.tv_sec*1000 + (tv.tv_usec/1000);
 }
+
+
+
+
+
 
 
 /** 
@@ -128,9 +167,9 @@ void essai_split_combine(int bits, int thresh, int *tps_gen_, int *tps_rec_) {
 	lsss_set_secret(ctx_split, secret);
 	avant=temps();
 
-	i=thresh+random()%4;
+	i=thresh+rand()%4;
 	for (i=0; i<thresh; i++) {
-		xpart=1+random()%1000;
+		xpart=1+rand()%1000;
 		lsss_get_part(ctx_split, part, xpart);
 		err = lsss_set_part(ctx_combine, part, xpart);
 		if (err == LSSS_ERR_PART_TWICE) { 

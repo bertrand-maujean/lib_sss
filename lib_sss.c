@@ -446,7 +446,12 @@ void lsss_zX_random(lsss_z *p, int degre) {
 	c = (unsigned char*)p;
 	if (lsss_random_source==NULL) {
 		for (n=degre>>3; n; n--) {
+			#ifdef __linux__
 			*c = (unsigned char) random() & 255;
+			#endif
+			#ifdef _WIN64
+			*c = (unsigned char)rand() & 255;
+			#endif
 			c++;
 		}
 	} else {

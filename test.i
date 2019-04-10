@@ -1,107 +1,293 @@
 # 1 "test.c"
 # 1 "<built-in>"
 # 1 "<command-line>"
-# 31 "<command-line>"
-# 1 "/usr/include/stdc-predef.h" 1 3 4
-# 32 "<command-line>" 2
 # 1 "test.c"
 # 24 "test.c"
 # 1 "lib_sss.h" 1
 # 35 "lib_sss.h"
-# 1 "/usr/lib/gcc/x86_64-linux-gnu/6/include/stdbool.h" 1 3 4
+# 1 "/home/ber/tis-kernel-master/share/libc/stdbool.h" 1 3 4
 # 36 "lib_sss.h" 2
-# 1 "/usr/lib/gcc/x86_64-linux-gnu/6/include/stdint.h" 1 3 4
-# 9 "/usr/lib/gcc/x86_64-linux-gnu/6/include/stdint.h" 3 4
-# 1 "/usr/include/stdint.h" 1 3 4
-# 25 "/usr/include/stdint.h" 3 4
-# 1 "/usr/include/features.h" 1 3 4
-# 364 "/usr/include/features.h" 3 4
-# 1 "/usr/include/x86_64-linux-gnu/sys/cdefs.h" 1 3 4
-# 415 "/usr/include/x86_64-linux-gnu/sys/cdefs.h" 3 4
-# 1 "/usr/include/x86_64-linux-gnu/bits/wordsize.h" 1 3 4
-# 416 "/usr/include/x86_64-linux-gnu/sys/cdefs.h" 2 3 4
-# 365 "/usr/include/features.h" 2 3 4
-# 388 "/usr/include/features.h" 3 4
-# 1 "/usr/include/x86_64-linux-gnu/gnu/stubs.h" 1 3 4
-# 10 "/usr/include/x86_64-linux-gnu/gnu/stubs.h" 3 4
-# 1 "/usr/include/x86_64-linux-gnu/gnu/stubs-64.h" 1 3 4
-# 11 "/usr/include/x86_64-linux-gnu/gnu/stubs.h" 2 3 4
-# 389 "/usr/include/features.h" 2 3 4
-# 26 "/usr/include/stdint.h" 2 3 4
-# 1 "/usr/include/x86_64-linux-gnu/bits/wchar.h" 1 3 4
-# 27 "/usr/include/stdint.h" 2 3 4
-# 1 "/usr/include/x86_64-linux-gnu/bits/wordsize.h" 1 3 4
-# 28 "/usr/include/stdint.h" 2 3 4
-# 36 "/usr/include/stdint.h" 3 4
+# 1 "/home/ber/tis-kernel-master/share/libc/stdint.h" 1 3 4
+# 37 "/home/ber/tis-kernel-master/share/libc/stdint.h" 3 4
+# 1 "/home/ber/tis-kernel-master/share/libc/__fc_machdep.h" 1 3 4
+# 80 "/home/ber/tis-kernel-master/share/libc/__fc_machdep.h" 3 4
+# 1 "/home/ber/tis-kernel-master/share/libc/__fc_machdep_linux_gcc_shared.h" 1 3 4
+# 81 "/home/ber/tis-kernel-master/share/libc/__fc_machdep.h" 2 3 4
+# 38 "/home/ber/tis-kernel-master/share/libc/stdint.h" 2 3 4
+# 1 "/home/ber/tis-kernel-master/share/libc/features.h" 1 3 4
+# 39 "/home/ber/tis-kernel-master/share/libc/stdint.h" 2 3 4
 
-# 36 "/usr/include/stdint.h" 3 4
+
+
+
+
+
+# 44 "/home/ber/tis-kernel-master/share/libc/stdint.h" 3 4
 typedef signed char int8_t;
-typedef short int int16_t;
-typedef int int32_t;
-
-typedef long int int64_t;
-
-
-
-
-
 
 
 typedef unsigned char uint8_t;
-typedef unsigned short int uint16_t;
+
+
+typedef signed short int16_t;
+
+
+typedef unsigned short uint16_t;
+
+
+typedef signed int int32_t;
+
 
 typedef unsigned int uint32_t;
 
 
+typedef signed long int64_t;
 
-typedef unsigned long int uint64_t;
-# 65 "/usr/include/stdint.h" 3 4
+
+typedef unsigned long uint64_t;
+
+
+
 typedef signed char int_least8_t;
-typedef short int int_least16_t;
-typedef int int_least32_t;
-
-typedef long int int_least64_t;
-
-
-
-
-
-
 typedef unsigned char uint_least8_t;
-typedef unsigned short int uint_least16_t;
+typedef signed short int_least16_t;
+typedef unsigned short uint_least16_t;
+typedef signed int int_least32_t;
 typedef unsigned int uint_least32_t;
+typedef signed long long int_least64_t;
+typedef unsigned long long uint_least64_t;
 
-typedef unsigned long int uint_least64_t;
-# 90 "/usr/include/stdint.h" 3 4
+
 typedef signed char int_fast8_t;
-
-typedef long int int_fast16_t;
-typedef long int int_fast32_t;
-typedef long int int_fast64_t;
-# 103 "/usr/include/stdint.h" 3 4
 typedef unsigned char uint_fast8_t;
+typedef signed int int_fast16_t;
+typedef unsigned int uint_fast16_t;
+typedef signed int int_fast32_t;
+typedef unsigned int uint_fast32_t;
+typedef signed long long int_fast64_t;
+typedef unsigned long long uint_fast64_t;
 
-typedef unsigned long int uint_fast16_t;
-typedef unsigned long int uint_fast32_t;
-typedef unsigned long int uint_fast64_t;
-# 119 "/usr/include/stdint.h" 3 4
-typedef long int intptr_t;
+
+# 1 "/home/ber/tis-kernel-master/share/libc/__fc_define_intptr_t.h" 1 3 4
+# 39 "/home/ber/tis-kernel-master/share/libc/__fc_define_intptr_t.h" 3 4
 
 
-typedef unsigned long int uintptr_t;
-# 134 "/usr/include/stdint.h" 3 4
-typedef long int intmax_t;
-typedef unsigned long int uintmax_t;
-# 10 "/usr/lib/gcc/x86_64-linux-gnu/6/include/stdint.h" 2 3 4
+
+typedef signed long intptr_t;
+
+
+
+# 90 "/home/ber/tis-kernel-master/share/libc/stdint.h" 2 3 4
+
+
+typedef unsigned long uintptr_t;
+
+
+
+typedef signed long long intmax_t;
+typedef unsigned long long uintmax_t;
+# 122 "/home/ber/tis-kernel-master/share/libc/stdint.h" 3 4
+# 1 "/home/ber/tis-kernel-master/share/libc/__fc_define_wchar_limits.h" 1 3 4
+# 123 "/home/ber/tis-kernel-master/share/libc/stdint.h" 2 3 4
+# 144 "/home/ber/tis-kernel-master/share/libc/stdint.h" 3 4
+
 # 37 "lib_sss.h" 2
-# 1 "/usr/include/stdlib.h" 1 3 4
-# 32 "/usr/include/stdlib.h" 3 4
-# 1 "/usr/lib/gcc/x86_64-linux-gnu/6/include/stddef.h" 1 3 4
-# 216 "/usr/lib/gcc/x86_64-linux-gnu/6/include/stddef.h" 3 4
-typedef long unsigned int size_t;
-# 328 "/usr/lib/gcc/x86_64-linux-gnu/6/include/stddef.h" 3 4
+# 1 "/home/ber/tis-kernel-master/share/libc/stdlib.h" 1 3 4
+# 37 "/home/ber/tis-kernel-master/share/libc/stdlib.h" 3 4
+# 1 "/home/ber/tis-kernel-master/share/libc/__fc_define_size_t.h" 1 3 4
+# 38 "/home/ber/tis-kernel-master/share/libc/__fc_define_size_t.h" 3 4
+
+typedef unsigned long size_t;
+
+# 38 "/home/ber/tis-kernel-master/share/libc/stdlib.h" 2 3 4
+# 1 "/home/ber/tis-kernel-master/share/libc/__fc_define_wchar_t.h" 1 3 4
+# 39 "/home/ber/tis-kernel-master/share/libc/__fc_define_wchar_t.h" 3 4
 typedef int wchar_t;
-# 33 "/usr/include/stdlib.h" 2 3 4
+# 39 "/home/ber/tis-kernel-master/share/libc/stdlib.h" 2 3 4
+# 1 "/home/ber/tis-kernel-master/share/libc/__fc_define_quad_t.h" 1 3 4
+# 16 "/home/ber/tis-kernel-master/share/libc/__fc_define_quad_t.h" 3 4
+
+typedef unsigned long u_quad_t;
+typedef signed long quad_t;
+typedef quad_t *qaddr_t;
+
+# 40 "/home/ber/tis-kernel-master/share/libc/stdlib.h" 2 3 4
+
+
+
+
+typedef struct __fc_div_t {
+  int quot;
+  int rem;
+} div_t;
+typedef struct __fc_ldiv_t {
+  long int quot;
+  long int rem;
+} ldiv_t;
+
+typedef struct __fc_lldiv_t {
+  long long int quot;
+  long long int rem;
+} lldiv_t;
+
+# 1 "/home/ber/tis-kernel-master/share/libc/__fc_define_null.h" 1 3 4
+# 59 "/home/ber/tis-kernel-master/share/libc/stdlib.h" 2 3 4
+
+
+
+
+
+# 1 "/home/ber/tis-kernel-master/share/libc/limits.h" 1 3 4
+# 65 "/home/ber/tis-kernel-master/share/libc/stdlib.h" 2 3 4
+
+
+
+
+
+double atof(const char *nptr);
+
+
+int atoi(const char *nptr);
+
+long int atol(const char *nptr);
+
+long long int atoll(const char *nptr);
+
+
+long long int atoq(const char *nptr);
+
+
+
+
+
+
+double strtod(const char * nptr,
+     char ** endptr);
+
+
+
+
+float strtof(const char * nptr,
+     char ** endptr);
+
+
+
+
+long double strtold(const char * nptr,
+     char ** endptr);
+
+
+
+
+
+long int strtol(
+     const char * nptr,
+     char ** endptr,
+     int base);
+
+
+
+
+long long int strtoll(
+     const char * nptr,
+     char ** endptr,
+     int base);
+
+
+
+
+unsigned long int strtoul(
+     const char * nptr,
+     char ** endptr,
+     int base);
+
+
+
+
+unsigned long long int strtoull(
+     const char * nptr,
+     char ** endptr,
+     int base);
+
+
+extern const unsigned long __fc_rand_max = 32767;
+
+
+
+
+
+int rand(void);
+# 158 "/home/ber/tis-kernel-master/share/libc/stdlib.h" 3 4
+void srand(unsigned int seed);
+
+
+
+void *calloc(size_t nmemb, size_t size);
+# 188 "/home/ber/tis-kernel-master/share/libc/stdlib.h" 3 4
+void *malloc(size_t size) __attribute__ ((nothrow));
+# 204 "/home/ber/tis-kernel-master/share/libc/stdlib.h" 3 4
+void free(void *p);
+# 248 "/home/ber/tis-kernel-master/share/libc/stdlib.h" 3 4
+void *realloc(void *ptr, size_t size);
+
+
+
+
+
+
+void abort(void);
+
+
+int atexit(void (*func)(void));
+
+
+int at_quick_exit(void (*func)(void));
+
+
+
+
+
+void exit(int status) __attribute__ ((noreturn));
+
+
+
+
+
+void _Exit(int status) __attribute__ ((__noreturn__));
+
+
+
+
+
+char *getenv(const char *name);
+
+int putenv(char *string);
+
+int setenv(const char *name, const char *value, int overwrite);
+
+int unsetenv(const char *name);
+
+
+
+
+void quick_exit(int status) __attribute__ ((__noreturn__));
+
+
+int system(const char *string);
+
+
+
+
+
+
+void *bsearch(const void *key, const void *base,
+     size_t nmemb, size_t size,
+     int (*compar)(const void *, const void *));
+
+
+
+  void qsort(void *base, size_t nmemb, size_t size,
+             int (*compar)(const void *, const void *));
 
 
 
@@ -109,1386 +295,293 @@ typedef int wchar_t;
 
 
 
+int abs(int j);
 
-# 1 "/usr/include/x86_64-linux-gnu/bits/waitflags.h" 1 3 4
-# 50 "/usr/include/x86_64-linux-gnu/bits/waitflags.h" 3 4
-typedef enum
+
+
+
+long int labs(long int j);
+
+
+
+
+long long int llabs(long long int j);
+
+
+div_t div(int numer, int denom);
+
+ldiv_t ldiv(long int numer, long int denom);
+
+lldiv_t lldiv(long long int numer, long long int denom);
+
+
+
+int mblen(const char *s, size_t n);
+
+
+
+int mbtowc(wchar_t * pwc,
+     const char * s,
+     size_t n);
+
+
+int wctomb(char *s, wchar_t wc);
+
+
+
+
+size_t mbstowcs(wchar_t * pwcs,
+     const char * s,
+     size_t n);
+
+
+size_t wcstombs(char * s,
+     const wchar_t * pwcs,
+     size_t n);
+
+
+# 1 "/home/ber/tis-kernel-master/share/libc/__fc_define_locale_t.h" 1 3 4
+# 38 "/home/ber/tis-kernel-master/share/libc/__fc_define_locale_t.h" 3 4
+
+
+typedef struct __tis_locale_struct
 {
-  P_ALL,
-  P_PID,
-  P_PGID
-} idtype_t;
-# 42 "/usr/include/stdlib.h" 2 3 4
-# 1 "/usr/include/x86_64-linux-gnu/bits/waitstatus.h" 1 3 4
-# 43 "/usr/include/stdlib.h" 2 3 4
-# 56 "/usr/include/stdlib.h" 3 4
-
-
-typedef struct
-  {
-    int quot;
-    int rem;
-  } div_t;
-
-
-
-typedef struct
-  {
-    long int quot;
-    long int rem;
-  } ldiv_t;
-
-
-
-
-
-
-
-__extension__ typedef struct
-  {
-    long long int quot;
-    long long int rem;
-  } lldiv_t;
-
-
-# 100 "/usr/include/stdlib.h" 3 4
-extern size_t __ctype_get_mb_cur_max (void) __attribute__ ((__nothrow__ , __leaf__)) ;
-
-
-
-
-extern double atof (const char *__nptr)
-     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1))) ;
-
-extern int atoi (const char *__nptr)
-     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1))) ;
-
-extern long int atol (const char *__nptr)
-     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1))) ;
-
-
-
-
-
-__extension__ extern long long int atoll (const char *__nptr)
-     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1))) ;
-
-
-
-
-
-extern double strtod (const char *__restrict __nptr,
-        char **__restrict __endptr)
-     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1)));
-
-
-
-
-
-extern float strtof (const char *__restrict __nptr,
-       char **__restrict __endptr) __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1)));
-
-extern long double strtold (const char *__restrict __nptr,
-       char **__restrict __endptr)
-     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1)));
-
-
-
-
-
-extern long int strtol (const char *__restrict __nptr,
-   char **__restrict __endptr, int __base)
-     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1)));
-
-extern unsigned long int strtoul (const char *__restrict __nptr,
-      char **__restrict __endptr, int __base)
-     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1)));
-
-
-
-
-__extension__
-extern long long int strtoq (const char *__restrict __nptr,
-        char **__restrict __endptr, int __base)
-     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1)));
-
-__extension__
-extern unsigned long long int strtouq (const char *__restrict __nptr,
-           char **__restrict __endptr, int __base)
-     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1)));
-
-
-
-
-
-__extension__
-extern long long int strtoll (const char *__restrict __nptr,
-         char **__restrict __endptr, int __base)
-     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1)));
-
-__extension__
-extern unsigned long long int strtoull (const char *__restrict __nptr,
-     char **__restrict __endptr, int __base)
-     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1)));
-
-# 266 "/usr/include/stdlib.h" 3 4
-extern char *l64a (long int __n) __attribute__ ((__nothrow__ , __leaf__)) ;
-
-
-extern long int a64l (const char *__s)
-     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1))) ;
-
-
-
-
-# 1 "/usr/include/x86_64-linux-gnu/sys/types.h" 1 3 4
-# 27 "/usr/include/x86_64-linux-gnu/sys/types.h" 3 4
-
-
-# 1 "/usr/include/x86_64-linux-gnu/bits/types.h" 1 3 4
-# 27 "/usr/include/x86_64-linux-gnu/bits/types.h" 3 4
-# 1 "/usr/include/x86_64-linux-gnu/bits/wordsize.h" 1 3 4
-# 28 "/usr/include/x86_64-linux-gnu/bits/types.h" 2 3 4
-
-
-typedef unsigned char __u_char;
-typedef unsigned short int __u_short;
-typedef unsigned int __u_int;
-typedef unsigned long int __u_long;
-
-
-typedef signed char __int8_t;
-typedef unsigned char __uint8_t;
-typedef signed short int __int16_t;
-typedef unsigned short int __uint16_t;
-typedef signed int __int32_t;
-typedef unsigned int __uint32_t;
-
-typedef signed long int __int64_t;
-typedef unsigned long int __uint64_t;
-
-
-
-
-
-
-
-typedef long int __quad_t;
-typedef unsigned long int __u_quad_t;
-# 121 "/usr/include/x86_64-linux-gnu/bits/types.h" 3 4
-# 1 "/usr/include/x86_64-linux-gnu/bits/typesizes.h" 1 3 4
-# 122 "/usr/include/x86_64-linux-gnu/bits/types.h" 2 3 4
-
-
-typedef unsigned long int __dev_t;
-typedef unsigned int __uid_t;
-typedef unsigned int __gid_t;
-typedef unsigned long int __ino_t;
-typedef unsigned long int __ino64_t;
-typedef unsigned int __mode_t;
-typedef unsigned long int __nlink_t;
-typedef long int __off_t;
-typedef long int __off64_t;
-typedef int __pid_t;
-typedef struct { int __val[2]; } __fsid_t;
-typedef long int __clock_t;
-typedef unsigned long int __rlim_t;
-typedef unsigned long int __rlim64_t;
-typedef unsigned int __id_t;
-typedef long int __time_t;
-typedef unsigned int __useconds_t;
-typedef long int __suseconds_t;
-
-typedef int __daddr_t;
-typedef int __key_t;
-
-
-typedef int __clockid_t;
-
-
-typedef void * __timer_t;
-
-
-typedef long int __blksize_t;
-
-
-
-
-typedef long int __blkcnt_t;
-typedef long int __blkcnt64_t;
-
-
-typedef unsigned long int __fsblkcnt_t;
-typedef unsigned long int __fsblkcnt64_t;
-
-
-typedef unsigned long int __fsfilcnt_t;
-typedef unsigned long int __fsfilcnt64_t;
-
-
-typedef long int __fsword_t;
-
-typedef long int __ssize_t;
-
-
-typedef long int __syscall_slong_t;
-
-typedef unsigned long int __syscall_ulong_t;
-
-
-
-typedef __off64_t __loff_t;
-typedef __quad_t *__qaddr_t;
-typedef char *__caddr_t;
-
-
-typedef long int __intptr_t;
-
-
-typedef unsigned int __socklen_t;
-# 30 "/usr/include/x86_64-linux-gnu/sys/types.h" 2 3 4
-
-
-
-typedef __u_char u_char;
-typedef __u_short u_short;
-typedef __u_int u_int;
-typedef __u_long u_long;
-typedef __quad_t quad_t;
-typedef __u_quad_t u_quad_t;
-typedef __fsid_t fsid_t;
-
-
-
-
-typedef __loff_t loff_t;
-
-
-
-typedef __ino_t ino_t;
-# 60 "/usr/include/x86_64-linux-gnu/sys/types.h" 3 4
-typedef __dev_t dev_t;
-
-
-
-
-typedef __gid_t gid_t;
-
-
-
-
-typedef __mode_t mode_t;
-
-
-
-
-typedef __nlink_t nlink_t;
-
-
-
-
-typedef __uid_t uid_t;
-
-
-
-
-
-typedef __off_t off_t;
-# 98 "/usr/include/x86_64-linux-gnu/sys/types.h" 3 4
-typedef __pid_t pid_t;
-
-
-
-
-
-typedef __id_t id_t;
-
-
-
-
-typedef __ssize_t ssize_t;
-
-
-
-
-
-typedef __daddr_t daddr_t;
-typedef __caddr_t caddr_t;
-
-
-
-
-
-typedef __key_t key_t;
-# 132 "/usr/include/x86_64-linux-gnu/sys/types.h" 3 4
-# 1 "/usr/include/time.h" 1 3 4
-# 57 "/usr/include/time.h" 3 4
-
-
-typedef __clock_t clock_t;
-
-
-
-# 73 "/usr/include/time.h" 3 4
-
-
-typedef __time_t time_t;
-
-
-
-# 91 "/usr/include/time.h" 3 4
-typedef __clockid_t clockid_t;
-# 103 "/usr/include/time.h" 3 4
-typedef __timer_t timer_t;
-# 133 "/usr/include/x86_64-linux-gnu/sys/types.h" 2 3 4
-# 146 "/usr/include/x86_64-linux-gnu/sys/types.h" 3 4
-# 1 "/usr/lib/gcc/x86_64-linux-gnu/6/include/stddef.h" 1 3 4
-# 147 "/usr/include/x86_64-linux-gnu/sys/types.h" 2 3 4
-
-
-
-typedef unsigned long int ulong;
-typedef unsigned short int ushort;
-typedef unsigned int uint;
-# 200 "/usr/include/x86_64-linux-gnu/sys/types.h" 3 4
-typedef unsigned int u_int8_t __attribute__ ((__mode__ (__QI__)));
-typedef unsigned int u_int16_t __attribute__ ((__mode__ (__HI__)));
-typedef unsigned int u_int32_t __attribute__ ((__mode__ (__SI__)));
-typedef unsigned int u_int64_t __attribute__ ((__mode__ (__DI__)));
-
-typedef int register_t __attribute__ ((__mode__ (__word__)));
-# 216 "/usr/include/x86_64-linux-gnu/sys/types.h" 3 4
-# 1 "/usr/include/endian.h" 1 3 4
-# 36 "/usr/include/endian.h" 3 4
-# 1 "/usr/include/x86_64-linux-gnu/bits/endian.h" 1 3 4
-# 37 "/usr/include/endian.h" 2 3 4
-# 60 "/usr/include/endian.h" 3 4
-# 1 "/usr/include/x86_64-linux-gnu/bits/byteswap.h" 1 3 4
-# 28 "/usr/include/x86_64-linux-gnu/bits/byteswap.h" 3 4
-# 1 "/usr/include/x86_64-linux-gnu/bits/wordsize.h" 1 3 4
-# 29 "/usr/include/x86_64-linux-gnu/bits/byteswap.h" 2 3 4
-
-
-
-
-
-
-# 1 "/usr/include/x86_64-linux-gnu/bits/byteswap-16.h" 1 3 4
-# 36 "/usr/include/x86_64-linux-gnu/bits/byteswap.h" 2 3 4
-# 44 "/usr/include/x86_64-linux-gnu/bits/byteswap.h" 3 4
-static __inline unsigned int
-__bswap_32 (unsigned int __bsx)
-{
-  return __builtin_bswap32 (__bsx);
-}
-# 108 "/usr/include/x86_64-linux-gnu/bits/byteswap.h" 3 4
-static __inline __uint64_t
-__bswap_64 (__uint64_t __bsx)
-{
-  return __builtin_bswap64 (__bsx);
-}
-# 61 "/usr/include/endian.h" 2 3 4
-# 217 "/usr/include/x86_64-linux-gnu/sys/types.h" 2 3 4
-
-
-# 1 "/usr/include/x86_64-linux-gnu/sys/select.h" 1 3 4
-# 30 "/usr/include/x86_64-linux-gnu/sys/select.h" 3 4
-# 1 "/usr/include/x86_64-linux-gnu/bits/select.h" 1 3 4
-# 22 "/usr/include/x86_64-linux-gnu/bits/select.h" 3 4
-# 1 "/usr/include/x86_64-linux-gnu/bits/wordsize.h" 1 3 4
-# 23 "/usr/include/x86_64-linux-gnu/bits/select.h" 2 3 4
-# 31 "/usr/include/x86_64-linux-gnu/sys/select.h" 2 3 4
-
-
-# 1 "/usr/include/x86_64-linux-gnu/bits/sigset.h" 1 3 4
-# 22 "/usr/include/x86_64-linux-gnu/bits/sigset.h" 3 4
-typedef int __sig_atomic_t;
-
-
-
-
-typedef struct
-  {
-    unsigned long int __val[(1024 / (8 * sizeof (unsigned long int)))];
-  } __sigset_t;
-# 34 "/usr/include/x86_64-linux-gnu/sys/select.h" 2 3 4
-
-
-
-typedef __sigset_t sigset_t;
-
-
-
-
-
-
-
-# 1 "/usr/include/time.h" 1 3 4
-# 120 "/usr/include/time.h" 3 4
-struct timespec
-  {
-    __time_t tv_sec;
-    __syscall_slong_t tv_nsec;
-  };
-# 46 "/usr/include/x86_64-linux-gnu/sys/select.h" 2 3 4
-
-# 1 "/usr/include/x86_64-linux-gnu/bits/time.h" 1 3 4
-# 30 "/usr/include/x86_64-linux-gnu/bits/time.h" 3 4
-struct timeval
-  {
-    __time_t tv_sec;
-    __suseconds_t tv_usec;
-  };
-# 48 "/usr/include/x86_64-linux-gnu/sys/select.h" 2 3 4
-
-
-typedef __suseconds_t suseconds_t;
-
-
-
-
-
-typedef long int __fd_mask;
-# 66 "/usr/include/x86_64-linux-gnu/sys/select.h" 3 4
-typedef struct
-  {
-
-
-
-
-
-
-    __fd_mask __fds_bits[1024 / (8 * (int) sizeof (__fd_mask))];
-
-
-  } fd_set;
-
-
-
-
-
-
-typedef __fd_mask fd_mask;
-# 98 "/usr/include/x86_64-linux-gnu/sys/select.h" 3 4
-
-# 108 "/usr/include/x86_64-linux-gnu/sys/select.h" 3 4
-extern int select (int __nfds, fd_set *__restrict __readfds,
-     fd_set *__restrict __writefds,
-     fd_set *__restrict __exceptfds,
-     struct timeval *__restrict __timeout);
-# 120 "/usr/include/x86_64-linux-gnu/sys/select.h" 3 4
-extern int pselect (int __nfds, fd_set *__restrict __readfds,
-      fd_set *__restrict __writefds,
-      fd_set *__restrict __exceptfds,
-      const struct timespec *__restrict __timeout,
-      const __sigset_t *__restrict __sigmask);
-# 133 "/usr/include/x86_64-linux-gnu/sys/select.h" 3 4
-
-# 220 "/usr/include/x86_64-linux-gnu/sys/types.h" 2 3 4
-
-
-# 1 "/usr/include/x86_64-linux-gnu/sys/sysmacros.h" 1 3 4
-# 24 "/usr/include/x86_64-linux-gnu/sys/sysmacros.h" 3 4
-
-
-__extension__
-extern unsigned int gnu_dev_major (unsigned long long int __dev)
-     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__const__));
-__extension__
-extern unsigned int gnu_dev_minor (unsigned long long int __dev)
-     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__const__));
-__extension__
-extern unsigned long long int gnu_dev_makedev (unsigned int __major,
-            unsigned int __minor)
-     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__const__));
-# 58 "/usr/include/x86_64-linux-gnu/sys/sysmacros.h" 3 4
-
-# 223 "/usr/include/x86_64-linux-gnu/sys/types.h" 2 3 4
-
-
-
-
-
-typedef __blksize_t blksize_t;
-
-
-
-
-
-
-typedef __blkcnt_t blkcnt_t;
-
-
-
-typedef __fsblkcnt_t fsblkcnt_t;
-
-
-
-typedef __fsfilcnt_t fsfilcnt_t;
-# 270 "/usr/include/x86_64-linux-gnu/sys/types.h" 3 4
-# 1 "/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h" 1 3 4
-# 21 "/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h" 3 4
-# 1 "/usr/include/x86_64-linux-gnu/bits/wordsize.h" 1 3 4
-# 22 "/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h" 2 3 4
-# 60 "/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h" 3 4
-typedef unsigned long int pthread_t;
-
-
-union pthread_attr_t
-{
-  char __size[56];
-  long int __align;
-};
-
-typedef union pthread_attr_t pthread_attr_t;
-
-
-
-
-
-typedef struct __pthread_internal_list
-{
-  struct __pthread_internal_list *__prev;
-  struct __pthread_internal_list *__next;
-} __pthread_list_t;
-# 90 "/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h" 3 4
-typedef union
-{
-  struct __pthread_mutex_s
-  {
-    int __lock;
-    unsigned int __count;
-    int __owner;
-
-    unsigned int __nusers;
-
-
-
-    int __kind;
-
-    short __spins;
-    short __elision;
-    __pthread_list_t __list;
-# 125 "/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h" 3 4
-  } __data;
-  char __size[40];
-  long int __align;
-} pthread_mutex_t;
-
-typedef union
-{
-  char __size[4];
-  int __align;
-} pthread_mutexattr_t;
-
-
-
-
-typedef union
-{
-  struct
-  {
-    int __lock;
-    unsigned int __futex;
-    __extension__ unsigned long long int __total_seq;
-    __extension__ unsigned long long int __wakeup_seq;
-    __extension__ unsigned long long int __woken_seq;
-    void *__mutex;
-    unsigned int __nwaiters;
-    unsigned int __broadcast_seq;
-  } __data;
-  char __size[48];
-  __extension__ long long int __align;
-} pthread_cond_t;
-
-typedef union
-{
-  char __size[4];
-  int __align;
-} pthread_condattr_t;
-
-
-
-typedef unsigned int pthread_key_t;
-
-
-
-typedef int pthread_once_t;
-
-
-
-
-
-typedef union
-{
-
-  struct
-  {
-    int __lock;
-    unsigned int __nr_readers;
-    unsigned int __readers_wakeup;
-    unsigned int __writer_wakeup;
-    unsigned int __nr_readers_queued;
-    unsigned int __nr_writers_queued;
-    int __writer;
-    int __shared;
-    signed char __rwelision;
-
-
-
-
-    unsigned char __pad1[7];
-
-
-    unsigned long int __pad2;
-
-
-    unsigned int __flags;
-
-  } __data;
-# 220 "/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h" 3 4
-  char __size[56];
-  long int __align;
-} pthread_rwlock_t;
-
-typedef union
-{
-  char __size[8];
-  long int __align;
-} pthread_rwlockattr_t;
-
-
-
-
-
-typedef volatile int pthread_spinlock_t;
-
-
-
-
-typedef union
-{
-  char __size[32];
-  long int __align;
-} pthread_barrier_t;
-
-typedef union
-{
-  char __size[4];
-  int __align;
-} pthread_barrierattr_t;
-# 271 "/usr/include/x86_64-linux-gnu/sys/types.h" 2 3 4
-
-
-
-# 276 "/usr/include/stdlib.h" 2 3 4
-
-
-
-
-
-
-extern long int random (void) __attribute__ ((__nothrow__ , __leaf__));
-
-
-extern void srandom (unsigned int __seed) __attribute__ ((__nothrow__ , __leaf__));
-
-
-
-
-
-extern char *initstate (unsigned int __seed, char *__statebuf,
-   size_t __statelen) __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (2)));
-
-
-
-extern char *setstate (char *__statebuf) __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1)));
-
-
-
-
-
-
-
-struct random_data
-  {
-    int32_t *fptr;
-    int32_t *rptr;
-    int32_t *state;
-    int rand_type;
-    int rand_deg;
-    int rand_sep;
-    int32_t *end_ptr;
-  };
-
-extern int random_r (struct random_data *__restrict __buf,
-       int32_t *__restrict __result) __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1, 2)));
-
-extern int srandom_r (unsigned int __seed, struct random_data *__buf)
-     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (2)));
-
-extern int initstate_r (unsigned int __seed, char *__restrict __statebuf,
-   size_t __statelen,
-   struct random_data *__restrict __buf)
-     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (2, 4)));
-
-extern int setstate_r (char *__restrict __statebuf,
-         struct random_data *__restrict __buf)
-     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1, 2)));
-
-
-
-
-
-
-extern int rand (void) __attribute__ ((__nothrow__ , __leaf__));
-
-extern void srand (unsigned int __seed) __attribute__ ((__nothrow__ , __leaf__));
-
-
-
-
-extern int rand_r (unsigned int *__seed) __attribute__ ((__nothrow__ , __leaf__));
-
-
-
-
-
-
-
-extern double drand48 (void) __attribute__ ((__nothrow__ , __leaf__));
-extern double erand48 (unsigned short int __xsubi[3]) __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1)));
-
-
-extern long int lrand48 (void) __attribute__ ((__nothrow__ , __leaf__));
-extern long int nrand48 (unsigned short int __xsubi[3])
-     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1)));
-
-
-extern long int mrand48 (void) __attribute__ ((__nothrow__ , __leaf__));
-extern long int jrand48 (unsigned short int __xsubi[3])
-     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1)));
-
-
-extern void srand48 (long int __seedval) __attribute__ ((__nothrow__ , __leaf__));
-extern unsigned short int *seed48 (unsigned short int __seed16v[3])
-     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1)));
-extern void lcong48 (unsigned short int __param[7]) __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1)));
-
-
-
-
-
-struct drand48_data
-  {
-    unsigned short int __x[3];
-    unsigned short int __old_x[3];
-    unsigned short int __c;
-    unsigned short int __init;
-    __extension__ unsigned long long int __a;
-
-  };
-
-
-extern int drand48_r (struct drand48_data *__restrict __buffer,
-        double *__restrict __result) __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1, 2)));
-extern int erand48_r (unsigned short int __xsubi[3],
-        struct drand48_data *__restrict __buffer,
-        double *__restrict __result) __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1, 2)));
-
-
-extern int lrand48_r (struct drand48_data *__restrict __buffer,
-        long int *__restrict __result)
-     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1, 2)));
-extern int nrand48_r (unsigned short int __xsubi[3],
-        struct drand48_data *__restrict __buffer,
-        long int *__restrict __result)
-     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1, 2)));
-
-
-extern int mrand48_r (struct drand48_data *__restrict __buffer,
-        long int *__restrict __result)
-     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1, 2)));
-extern int jrand48_r (unsigned short int __xsubi[3],
-        struct drand48_data *__restrict __buffer,
-        long int *__restrict __result)
-     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1, 2)));
-
-
-extern int srand48_r (long int __seedval, struct drand48_data *__buffer)
-     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (2)));
-
-extern int seed48_r (unsigned short int __seed16v[3],
-       struct drand48_data *__buffer) __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1, 2)));
-
-extern int lcong48_r (unsigned short int __param[7],
-        struct drand48_data *__buffer)
-     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1, 2)));
-
-
-
-
-
-
-
-
-
-extern void *malloc (size_t __size) __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__malloc__)) ;
-
-extern void *calloc (size_t __nmemb, size_t __size)
-     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__malloc__)) ;
-
-
-
-
-
-
-
-
-
-
-extern void *realloc (void *__ptr, size_t __size)
-     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__warn_unused_result__));
-
-extern void free (void *__ptr) __attribute__ ((__nothrow__ , __leaf__));
-
-
-
-
-extern void cfree (void *__ptr) __attribute__ ((__nothrow__ , __leaf__));
-
-
-
-# 1 "/usr/include/alloca.h" 1 3 4
-# 24 "/usr/include/alloca.h" 3 4
-# 1 "/usr/lib/gcc/x86_64-linux-gnu/6/include/stddef.h" 1 3 4
-# 25 "/usr/include/alloca.h" 2 3 4
-
-
-
-
-
-
-
-extern void *alloca (size_t __size) __attribute__ ((__nothrow__ , __leaf__));
-
-
-
-
-
-
-# 454 "/usr/include/stdlib.h" 2 3 4
-
-
-
-
-
-extern void *valloc (size_t __size) __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__malloc__)) ;
-
-
-
-
-extern int posix_memalign (void **__memptr, size_t __alignment, size_t __size)
-     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1))) ;
-
-
-
-
-extern void *aligned_alloc (size_t __alignment, size_t __size)
-     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__malloc__)) __attribute__ ((__alloc_size__ (2))) ;
-
-
-
-
-extern void abort (void) __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__noreturn__));
-
-
-
-extern int atexit (void (*__func) (void)) __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1)));
-
-
-
-
-
-
-
-extern int at_quick_exit (void (*__func) (void)) __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1)));
-
-
-
-
-
-
-
-extern int on_exit (void (*__func) (int __status, void *__arg), void *__arg)
-     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1)));
-
-
-
-
-
-
-extern void exit (int __status) __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__noreturn__));
-
-
-
-
-
-extern void quick_exit (int __status) __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__noreturn__));
-
-
-
-
-
-
-
-extern void _Exit (int __status) __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__noreturn__));
-
-
-
-
-
-
-extern char *getenv (const char *__name) __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1))) ;
-
-# 539 "/usr/include/stdlib.h" 3 4
-extern int putenv (char *__string) __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1)));
-
-
-
-
-
-extern int setenv (const char *__name, const char *__value, int __replace)
-     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (2)));
-
-
-extern int unsetenv (const char *__name) __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1)));
-
-
-
-
-
-
-extern int clearenv (void) __attribute__ ((__nothrow__ , __leaf__));
-# 567 "/usr/include/stdlib.h" 3 4
-extern char *mktemp (char *__template) __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1)));
-# 580 "/usr/include/stdlib.h" 3 4
-extern int mkstemp (char *__template) __attribute__ ((__nonnull__ (1))) ;
-# 602 "/usr/include/stdlib.h" 3 4
-extern int mkstemps (char *__template, int __suffixlen) __attribute__ ((__nonnull__ (1))) ;
-# 623 "/usr/include/stdlib.h" 3 4
-extern char *mkdtemp (char *__template) __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1))) ;
-# 672 "/usr/include/stdlib.h" 3 4
-
-
-
-
-
-extern int system (const char *__command) ;
-
-# 694 "/usr/include/stdlib.h" 3 4
-extern char *realpath (const char *__restrict __name,
-         char *__restrict __resolved) __attribute__ ((__nothrow__ , __leaf__)) ;
-
-
-
-
-
-
-typedef int (*__compar_fn_t) (const void *, const void *);
-# 712 "/usr/include/stdlib.h" 3 4
-
-
-
-extern void *bsearch (const void *__key, const void *__base,
-        size_t __nmemb, size_t __size, __compar_fn_t __compar)
-     __attribute__ ((__nonnull__ (1, 2, 5))) ;
-
-
-
-
-
-
-
-extern void qsort (void *__base, size_t __nmemb, size_t __size,
-     __compar_fn_t __compar) __attribute__ ((__nonnull__ (1, 4)));
-# 735 "/usr/include/stdlib.h" 3 4
-extern int abs (int __x) __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__const__)) ;
-extern long int labs (long int __x) __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__const__)) ;
-
-
-
-__extension__ extern long long int llabs (long long int __x)
-     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__const__)) ;
-
-
-
-
-
-
-
-extern div_t div (int __numer, int __denom)
-     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__const__)) ;
-extern ldiv_t ldiv (long int __numer, long int __denom)
-     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__const__)) ;
-
-
-
-
-__extension__ extern lldiv_t lldiv (long long int __numer,
-        long long int __denom)
-     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__const__)) ;
-
-# 772 "/usr/include/stdlib.h" 3 4
-extern char *ecvt (double __value, int __ndigit, int *__restrict __decpt,
-     int *__restrict __sign) __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (3, 4))) ;
-
-
-
-
-extern char *fcvt (double __value, int __ndigit, int *__restrict __decpt,
-     int *__restrict __sign) __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (3, 4))) ;
-
-
-
-
-extern char *gcvt (double __value, int __ndigit, char *__buf)
-     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (3))) ;
-
-
-
-
-extern char *qecvt (long double __value, int __ndigit,
-      int *__restrict __decpt, int *__restrict __sign)
-     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (3, 4))) ;
-extern char *qfcvt (long double __value, int __ndigit,
-      int *__restrict __decpt, int *__restrict __sign)
-     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (3, 4))) ;
-extern char *qgcvt (long double __value, int __ndigit, char *__buf)
-     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (3))) ;
-
-
-
-
-extern int ecvt_r (double __value, int __ndigit, int *__restrict __decpt,
-     int *__restrict __sign, char *__restrict __buf,
-     size_t __len) __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (3, 4, 5)));
-extern int fcvt_r (double __value, int __ndigit, int *__restrict __decpt,
-     int *__restrict __sign, char *__restrict __buf,
-     size_t __len) __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (3, 4, 5)));
-
-extern int qecvt_r (long double __value, int __ndigit,
-      int *__restrict __decpt, int *__restrict __sign,
-      char *__restrict __buf, size_t __len)
-     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (3, 4, 5)));
-extern int qfcvt_r (long double __value, int __ndigit,
-      int *__restrict __decpt, int *__restrict __sign,
-      char *__restrict __buf, size_t __len)
-     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (3, 4, 5)));
-
-
-
-
-
-
-extern int mblen (const char *__s, size_t __n) __attribute__ ((__nothrow__ , __leaf__));
-
-
-extern int mbtowc (wchar_t *__restrict __pwc,
-     const char *__restrict __s, size_t __n) __attribute__ ((__nothrow__ , __leaf__));
-
-
-extern int wctomb (char *__s, wchar_t __wchar) __attribute__ ((__nothrow__ , __leaf__));
-
-
-
-extern size_t mbstowcs (wchar_t *__restrict __pwcs,
-   const char *__restrict __s, size_t __n) __attribute__ ((__nothrow__ , __leaf__));
-
-extern size_t wcstombs (char *__restrict __s,
-   const wchar_t *__restrict __pwcs, size_t __n)
-     __attribute__ ((__nothrow__ , __leaf__));
-
-
-
-
-
-
-
-
-extern int rpmatch (const char *__response) __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1))) ;
-# 859 "/usr/include/stdlib.h" 3 4
-extern int getsubopt (char **__restrict __optionp,
-        char *const *__restrict __tokens,
-        char **__restrict __valuep)
-     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1, 2, 3))) ;
-# 911 "/usr/include/stdlib.h" 3 4
-extern int getloadavg (double __loadavg[], int __nelem)
-     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1)));
-# 921 "/usr/include/stdlib.h" 3 4
-# 1 "/usr/include/x86_64-linux-gnu/bits/stdlib-float.h" 1 3 4
-# 922 "/usr/include/stdlib.h" 2 3 4
-# 934 "/usr/include/stdlib.h" 3 4
-
-# 38 "lib_sss.h" 2
-# 1 "/usr/include/string.h" 1 3 4
-# 27 "/usr/include/string.h" 3 4
-
-
-
-
-
-# 1 "/usr/lib/gcc/x86_64-linux-gnu/6/include/stddef.h" 1 3 4
-# 33 "/usr/include/string.h" 2 3 4
-
-
-
-
-
-
-
-
-
-extern void *memcpy (void *__restrict __dest, const void *__restrict __src,
-       size_t __n) __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1, 2)));
-
-
-extern void *memmove (void *__dest, const void *__src, size_t __n)
-     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1, 2)));
-
-
-
-
-
-
-extern void *memccpy (void *__restrict __dest, const void *__restrict __src,
-        int __c, size_t __n)
-     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1, 2)));
-
-
-
-
-
-extern void *memset (void *__s, int __c, size_t __n) __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1)));
-
-
-extern int memcmp (const void *__s1, const void *__s2, size_t __n)
-     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1, 2)));
-# 92 "/usr/include/string.h" 3 4
-extern void *memchr (const void *__s, int __c, size_t __n)
-      __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1)));
-
-
-# 123 "/usr/include/string.h" 3 4
-
-
-extern char *strcpy (char *__restrict __dest, const char *__restrict __src)
-     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1, 2)));
-
-extern char *strncpy (char *__restrict __dest,
-        const char *__restrict __src, size_t __n)
-     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1, 2)));
-
-
-extern char *strcat (char *__restrict __dest, const char *__restrict __src)
-     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1, 2)));
-
-extern char *strncat (char *__restrict __dest, const char *__restrict __src,
-        size_t __n) __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1, 2)));
-
-
-extern int strcmp (const char *__s1, const char *__s2)
-     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1, 2)));
-
-extern int strncmp (const char *__s1, const char *__s2, size_t __n)
-     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1, 2)));
-
-
-extern int strcoll (const char *__s1, const char *__s2)
-     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1, 2)));
-
-extern size_t strxfrm (char *__restrict __dest,
-         const char *__restrict __src, size_t __n)
-     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (2)));
-
-
-
-
-
-
-# 1 "/usr/include/xlocale.h" 1 3 4
-# 27 "/usr/include/xlocale.h" 3 4
-typedef struct __locale_struct
-{
-
-  struct __locale_data *__locales[13];
-
-
+  const char *__locales[13];
   const unsigned short int *__ctype_b;
   const int *__ctype_tolower;
   const int *__ctype_toupper;
-
-
   const char *__names[13];
-} *__locale_t;
+} *__tis_locale_t;
+typedef __tis_locale_t locale_t;
 
+# 361 "/home/ber/tis-kernel-master/share/libc/stdlib.h" 2 3 4
 
-typedef __locale_t locale_t;
-# 160 "/usr/include/string.h" 2 3 4
+long
+strtol_l(const char * nptr, char ** endptr, int base,
+         locale_t loc);
 
+long long
+strtoll_l(const char * nptr, char ** endptr, int base,
+          locale_t loc);
 
-extern int strcoll_l (const char *__s1, const char *__s2, __locale_t __l)
-     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1, 2, 3)));
+unsigned long
+strtoul_l(const char * nptr, char ** endptr, int base,
+          locale_t loc);
 
-extern size_t strxfrm_l (char *__dest, const char *__src, size_t __n,
-    __locale_t __l) __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (2, 4)));
+unsigned long long
+strtoull_l(const char * nptr, char ** endptr, int base,
+           locale_t loc);
 
+signed long long
+strtoimax_l(const char * nptr, char ** endptr,
+            int base, locale_t loc);
 
+unsigned long long
+strtoumax_l(const char * nptr, char ** endptr,
+            int base, locale_t loc);
+quad_t
+strtoq_l(const char *nptr, char **endptr, int base, locale_t loc);
 
+u_quad_t
+strtouq_l(const char *nptr, char **endptr, int base, locale_t loc);
+double
+strtod_l(const char * nptr, char ** endptr,
+         locale_t loc);
+float
+strtof_l(const char * nptr, char ** endptr,
+         locale_t loc);
+long double
+strtold_l(const char * nptr, char ** endptr,
+          locale_t loc);
 
-extern char *strdup (const char *__s)
-     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__malloc__)) __attribute__ ((__nonnull__ (1)));
 
+int mkstemp(char *__t);
 
 
+# 38 "lib_sss.h" 2
+# 1 "/home/ber/tis-kernel-master/share/libc/string.h" 1 3 4
+# 37 "/home/ber/tis-kernel-master/share/libc/string.h" 3 4
+# 1 "/home/ber/tis-kernel-master/share/libc/__fc_string_axiomatic.h" 1 3 4
+# 43 "/home/ber/tis-kernel-master/share/libc/__fc_string_axiomatic.h" 3 4
 
+# 271 "/home/ber/tis-kernel-master/share/libc/__fc_string_axiomatic.h" 3 4
 
+# 38 "/home/ber/tis-kernel-master/share/libc/string.h" 2 3 4
+# 1 "/home/ber/tis-kernel-master/share/libc/stddef.h" 1 3 4
+# 38 "/home/ber/tis-kernel-master/share/libc/stddef.h" 3 4
 
-extern char *strndup (const char *__string, size_t __n)
-     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__malloc__)) __attribute__ ((__nonnull__ (1)));
-# 206 "/usr/include/string.h" 3 4
+typedef long ptrdiff_t;
 
-# 231 "/usr/include/string.h" 3 4
-extern char *strchr (const char *__s, int __c)
-     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1)));
-# 258 "/usr/include/string.h" 3 4
-extern char *strrchr (const char *__s, int __c)
-     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1)));
+# 39 "/home/ber/tis-kernel-master/share/libc/string.h" 2 3 4
 
 
-# 277 "/usr/include/string.h" 3 4
 
 
+# 52 "/home/ber/tis-kernel-master/share/libc/string.h" 3 4
+extern int memcmp (const void *__s1, const void *__s2, size_t __n) __attribute__ ((nothrow));
+# 67 "/home/ber/tis-kernel-master/share/libc/string.h" 3 4
+extern void *memchr(const void *__s, int __c, size_t __n) __attribute__ ((nothrow));
+# 79 "/home/ber/tis-kernel-master/share/libc/string.h" 3 4
+extern void *memcpy(void * __dest,
+      const void * __src, size_t __n) __attribute__ ((nothrow));
+# 89 "/home/ber/tis-kernel-master/share/libc/string.h" 3 4
+extern void *memmove(void *__dest, const void *__src, size_t __n) __attribute__ ((nothrow));
+# 99 "/home/ber/tis-kernel-master/share/libc/string.h" 3 4
+extern void *memset(void *__s, int __c, size_t __n) __attribute__ ((nothrow));
 
-extern size_t strcspn (const char *__s, const char *__reject)
-     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1, 2)));
 
 
-extern size_t strspn (const char *__s, const char *__accept)
-     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1, 2)));
-# 310 "/usr/include/string.h" 3 4
-extern char *strpbrk (const char *__s, const char *__accept)
-     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1, 2)));
-# 337 "/usr/include/string.h" 3 4
-extern char *strstr (const char *__haystack, const char *__needle)
-     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1, 2)));
 
 
 
 
-extern char *strtok (char *__restrict __s, const char *__restrict __delim)
-     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (2)));
+extern size_t strlen (const char *__s) __attribute__ ((nothrow));
 
 
 
 
-extern char *__strtok_r (char *__restrict __s,
-    const char *__restrict __delim,
-    char **__restrict __save_ptr)
-     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (2, 3)));
 
-extern char *strtok_r (char *__restrict __s, const char *__restrict __delim,
-         char **__restrict __save_ptr)
-     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (2, 3)));
-# 392 "/usr/include/string.h" 3 4
+extern size_t strnlen (const char *__s, size_t __n) __attribute__ ((nothrow));
 
 
-extern size_t strlen (const char *__s)
-     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1)));
 
 
 
 
+extern int strcmp (const char *__s1, const char *__s2) __attribute__ ((nothrow));
 
-extern size_t strnlen (const char *__string, size_t __maxlen)
-     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1)));
 
 
 
 
 
-extern char *strerror (int __errnum) __attribute__ ((__nothrow__ , __leaf__));
+extern int strncmp (const char *__s1, const char *__s2, size_t __n) __attribute__ ((nothrow));
 
-# 422 "/usr/include/string.h" 3 4
-extern int strerror_r (int __errnum, char *__buf, size_t __buflen) __asm__ ("" "__xpg_strerror_r") __attribute__ ((__nothrow__ , __leaf__))
 
-                        __attribute__ ((__nonnull__ (2)));
-# 440 "/usr/include/string.h" 3 4
-extern char *strerror_l (int __errnum, __locale_t __l) __attribute__ ((__nothrow__ , __leaf__));
 
 
 
+extern int strcoll (const char *__s1, const char *__s2) __attribute__ ((nothrow));
+# 150 "/home/ber/tis-kernel-master/share/libc/string.h" 3 4
+extern char *strchr(const char *__s, int __c) __attribute__ ((nothrow));
+# 165 "/home/ber/tis-kernel-master/share/libc/string.h" 3 4
+extern char *strrchr(const char *__s, int __c) __attribute__ ((nothrow));
 
 
-extern void __bzero (void *__s, size_t __n) __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1)));
 
 
 
-extern void bcopy (const void *__src, void *__dest, size_t __n)
-     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1, 2)));
 
+extern size_t strcspn(const char *__s, const char *__reject) __attribute__ ((nothrow));
 
-extern void bzero (void *__s, size_t __n) __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1)));
 
 
-extern int bcmp (const void *__s1, const void *__s2, size_t __n)
-     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1, 2)));
-# 484 "/usr/include/string.h" 3 4
-extern char *index (const char *__s, int __c)
-     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1)));
-# 512 "/usr/include/string.h" 3 4
-extern char *rindex (const char *__s, int __c)
-     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1)));
 
 
 
+extern size_t strspn(const char *__s, const char *__accept) __attribute__ ((nothrow));
 
-extern int ffs (int __i) __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__const__));
-# 529 "/usr/include/string.h" 3 4
-extern int strcasecmp (const char *__s1, const char *__s2)
-     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1, 2)));
 
 
-extern int strncasecmp (const char *__s1, const char *__s2, size_t __n)
-     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1, 2)));
-# 552 "/usr/include/string.h" 3 4
-extern char *strsep (char **__restrict __stringp,
-       const char *__restrict __delim)
-     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1, 2)));
 
 
 
+extern char *strpbrk(const char *__s, const char *__accept) __attribute__ ((nothrow));
+# 195 "/home/ber/tis-kernel-master/share/libc/string.h" 3 4
+extern char *strstr(const char *__haystack, const char *__needle) __attribute__ ((nothrow));
 
-extern char *strsignal (int __sig) __attribute__ ((__nothrow__ , __leaf__));
 
 
-extern char *__stpcpy (char *__restrict __dest, const char *__restrict __src)
-     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1, 2)));
-extern char *stpcpy (char *__restrict __dest, const char *__restrict __src)
-     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1, 2)));
 
 
 
-extern char *__stpncpy (char *__restrict __dest,
-   const char *__restrict __src, size_t __n)
-     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1, 2)));
-extern char *stpncpy (char *__restrict __dest,
-        const char *__restrict __src, size_t __n)
-     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1, 2)));
-# 656 "/usr/include/string.h" 3 4
 
+extern char *strtok(char * __s, const char * __delim) __attribute__ ((nothrow));
+# 217 "/home/ber/tis-kernel-master/share/libc/string.h" 3 4
+extern char *strerror(int __errnum) __attribute__ ((nothrow));
+# 228 "/home/ber/tis-kernel-master/share/libc/string.h" 3 4
+extern char *strcpy(char * __dest, const char * __src) __attribute__ ((nothrow));
+# 244 "/home/ber/tis-kernel-master/share/libc/string.h" 3 4
+extern char *strncpy(char * __dest,
+       const char * __src, size_t __n) __attribute__ ((nothrow));
+# 271 "/home/ber/tis-kernel-master/share/libc/string.h" 3 4
+extern char *strcat(char * __dest, const char * __src) __attribute__ ((nothrow));
+# 295 "/home/ber/tis-kernel-master/share/libc/string.h" 3 4
+extern char *strncat(char * __dest,
+                     const char * __src, size_t __n) __attribute__ ((nothrow));
+
+
+
+
+
+
+extern size_t strxfrm (char * __dest,
+         const char * __src, size_t __n) __attribute__ ((nothrow));
+
+
+
+
+
+
+
+extern char *strdup (const char *__s) __attribute__ ((nothrow));
+
+
+
+
+
+
+
+extern char *strndup (const char *__s, size_t __n) __attribute__ ((nothrow));
+# 380 "/home/ber/tis-kernel-master/share/libc/string.h" 3 4
+
+
+
+
+# 1 "/home/ber/tis-kernel-master/share/libc/strings.h" 1 3 4
+# 39 "/home/ber/tis-kernel-master/share/libc/strings.h" 3 4
+
+
+int bcmp(const void *, const void *, size_t) __attribute__ ((nothrow));
+void bcopy(const void *, void *, size_t) __attribute__ ((nothrow));
+
+
+
+
+void bzero(void *s, size_t n) __attribute__ ((nothrow));
+int ffs(int) __attribute__ ((nothrow));
+char *index(const char *, int) __attribute__ ((nothrow));
+char *rindex(const char *, int) __attribute__ ((nothrow));
+int strcasecmp(const char *, const char *) __attribute__ ((nothrow));
+int strncasecmp(const char *, const char *, size_t) __attribute__ ((nothrow));
+
+
+# 385 "/home/ber/tis-kernel-master/share/libc/string.h" 2 3 4
 # 39 "lib_sss.h" 2
-# 50 "lib_sss.h"
+
+
+
+
+# 1 "/home/ber/tis-kernel-master/share/libc/alloca.h" 1 3 4
+# 17 "/home/ber/tis-kernel-master/share/libc/alloca.h" 3 4
+
+
+
+
+
+
+
+
+void *alloca(size_t size);
+
+
+# 44 "lib_sss.h" 2
+
+
+
+
+
+
 
 # 50 "lib_sss.h"
 typedef uint64_t lsss_z;
@@ -1535,30 +628,28 @@ int lsss_combine(lsss_ctx *ctx);
 void lsss_get_secret(lsss_ctx *ctx, void *secret);
 void lsss_register_random_source(lsss_random_source_t);
 # 25 "test.c" 2
-# 1 "/usr/include/time.h" 1 3 4
-# 29 "/usr/include/time.h" 3 4
+# 1 "/home/ber/tis-kernel-master/share/libc/time.h" 1 3 4
+# 49 "/home/ber/tis-kernel-master/share/libc/time.h" 3 4
 
 
+# 1 "/home/ber/tis-kernel-master/share/libc/__fc_define_clock_t.h" 1 3 4
+# 14 "/home/ber/tis-kernel-master/share/libc/__fc_define_clock_t.h" 3 4
+
+# 14 "/home/ber/tis-kernel-master/share/libc/__fc_define_clock_t.h" 3 4
+typedef unsigned int clock_t;
+# 52 "/home/ber/tis-kernel-master/share/libc/time.h" 2 3 4
+# 1 "/home/ber/tis-kernel-master/share/libc/__fc_define_time_t.h" 1 3 4
+# 37 "/home/ber/tis-kernel-master/share/libc/__fc_define_time_t.h" 3 4
+
+typedef long int time_t;
+
+# 53 "/home/ber/tis-kernel-master/share/libc/time.h" 2 3 4
+
+# 1 "/home/ber/tis-kernel-master/share/libc/__fc_define_tm.h" 1 3 4
+# 15 "/home/ber/tis-kernel-master/share/libc/__fc_define_tm.h" 3 4
 
 
-
-
-
-
-# 1 "/usr/lib/gcc/x86_64-linux-gnu/6/include/stddef.h" 1 3 4
-# 38 "/usr/include/time.h" 2 3 4
-
-
-
-# 1 "/usr/include/x86_64-linux-gnu/bits/time.h" 1 3 4
-# 42 "/usr/include/time.h" 2 3 4
-# 131 "/usr/include/time.h" 3 4
-
-
-
-# 133 "/usr/include/time.h" 3 4
-struct tm
-{
+struct tm {
   int tm_sec;
   int tm_min;
   int tm_hour;
@@ -1568,1002 +659,562 @@ struct tm
   int tm_wday;
   int tm_yday;
   int tm_isdst;
-
-
-  long int tm_gmtoff;
-  const char *tm_zone;
-
-
-
-
 };
 
+# 55 "/home/ber/tis-kernel-master/share/libc/time.h" 2 3 4
+# 1 "/home/ber/tis-kernel-master/share/libc/__fc_define_timeval.h" 1 3 4
+# 15 "/home/ber/tis-kernel-master/share/libc/__fc_define_timeval.h" 3 4
+# 1 "/home/ber/tis-kernel-master/share/libc/__fc_define_suseconds_t.h" 1 3 4
+# 37 "/home/ber/tis-kernel-master/share/libc/__fc_define_suseconds_t.h" 3 4
 
+typedef signed int suseconds_t;
 
+# 16 "/home/ber/tis-kernel-master/share/libc/__fc_define_timeval.h" 2 3 4
 
+struct timeval {
+  time_t tv_sec;
+  suseconds_t tv_usec;
+};
+# 56 "/home/ber/tis-kernel-master/share/libc/time.h" 2 3 4
 
+# 1 "/home/ber/tis-kernel-master/share/libc/__fc_define_timespec.h" 1 3 4
+# 37 "/home/ber/tis-kernel-master/share/libc/__fc_define_timespec.h" 3 4
 
+struct timespec {
+  long tv_sec;
+  long tv_nsec;
+};
 
+# 58 "/home/ber/tis-kernel-master/share/libc/time.h" 2 3 4
 
-struct itimerspec
-  {
-    struct timespec it_interval;
-    struct timespec it_value;
-  };
+struct itimerspec {
+  struct timespec it_interval;
+  struct timespec it_value;
+};
+# 73 "/home/ber/tis-kernel-master/share/libc/time.h" 3 4
+clock_t clock(void);
 
 
-struct sigevent;
-# 186 "/usr/include/time.h" 3 4
+double difftime(time_t time1, time_t time0);
 
 
+time_t mktime(struct tm *timeptr);
+# 94 "/home/ber/tis-kernel-master/share/libc/time.h" 3 4
+time_t time(time_t *timer);
 
-extern clock_t clock (void) __attribute__ ((__nothrow__ , __leaf__));
+char *asctime(const struct tm *timeptr);
 
+char *ctime(const time_t *timer);
 
-extern time_t time (time_t *__timer) __attribute__ ((__nothrow__ , __leaf__));
+struct tm __fc_time_tm;
+extern struct tm * const __p_fc_time_tm = &__fc_time_tm;
 
 
-extern double difftime (time_t __time1, time_t __time0)
-     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__const__));
 
 
-extern time_t mktime (struct tm *__tp) __attribute__ ((__nothrow__ , __leaf__));
 
+struct tm *gmtime(const time_t *timer);
 
 
 
 
-extern size_t strftime (char *__restrict __s, size_t __maxsize,
-   const char *__restrict __format,
-   const struct tm *__restrict __tp) __attribute__ ((__nothrow__ , __leaf__));
 
-# 223 "/usr/include/time.h" 3 4
-extern size_t strftime_l (char *__restrict __s, size_t __maxsize,
-     const char *__restrict __format,
-     const struct tm *__restrict __tp,
-     __locale_t __loc) __attribute__ ((__nothrow__ , __leaf__));
-# 236 "/usr/include/time.h" 3 4
+struct tm *localtime(const time_t *timer);
+struct tm *localtime_r(const time_t *timer, struct tm *r) __attribute__ ((nothrow));
 
+size_t strftime(char * s,
+  size_t maxsize,
+  const char * format,
+  const struct tm * timeptr);
 
 
-extern struct tm *gmtime (const time_t *__timer) __attribute__ ((__nothrow__ , __leaf__));
-
-
-
-extern struct tm *localtime (const time_t *__timer) __attribute__ ((__nothrow__ , __leaf__));
-
-
-
-
-
-extern struct tm *gmtime_r (const time_t *__restrict __timer,
-       struct tm *__restrict __tp) __attribute__ ((__nothrow__ , __leaf__));
-
-
-
-extern struct tm *localtime_r (const time_t *__restrict __timer,
-          struct tm *__restrict __tp) __attribute__ ((__nothrow__ , __leaf__));
-
-
-
-
-
-extern char *asctime (const struct tm *__tp) __attribute__ ((__nothrow__ , __leaf__));
-
-
-extern char *ctime (const time_t *__timer) __attribute__ ((__nothrow__ , __leaf__));
-
-
-
-
-
-
-
-extern char *asctime_r (const struct tm *__restrict __tp,
-   char *__restrict __buf) __attribute__ ((__nothrow__ , __leaf__));
-
-
-extern char *ctime_r (const time_t *__restrict __timer,
-        char *__restrict __buf) __attribute__ ((__nothrow__ , __leaf__));
-
-
-
-
-extern char *__tzname[2];
-extern int __daylight;
-extern long int __timezone;
-
-
-
-
-extern char *tzname[2];
-
-
-
-extern void tzset (void) __attribute__ ((__nothrow__ , __leaf__));
-
-
+int nanosleep(const struct timespec *, struct timespec *);
 
 extern int daylight;
-extern long int timezone;
+extern long timezone;
+extern char *tzname[2];
 
-
-
-
-
-extern int stime (const time_t *__when) __attribute__ ((__nothrow__ , __leaf__));
-# 319 "/usr/include/time.h" 3 4
-extern time_t timegm (struct tm *__tp) __attribute__ ((__nothrow__ , __leaf__));
-
-
-extern time_t timelocal (struct tm *__tp) __attribute__ ((__nothrow__ , __leaf__));
-
-
-extern int dysize (int __year) __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__const__));
-# 334 "/usr/include/time.h" 3 4
-extern int nanosleep (const struct timespec *__requested_time,
-        struct timespec *__remaining);
-
-
-
-extern int clock_getres (clockid_t __clock_id, struct timespec *__res) __attribute__ ((__nothrow__ , __leaf__));
-
-
-extern int clock_gettime (clockid_t __clock_id, struct timespec *__tp) __attribute__ ((__nothrow__ , __leaf__));
-
-
-extern int clock_settime (clockid_t __clock_id, const struct timespec *__tp)
-     __attribute__ ((__nothrow__ , __leaf__));
+void tzset(void);
 
 
 
 
 
 
-extern int clock_nanosleep (clockid_t __clock_id, int __flags,
-       const struct timespec *__req,
-       struct timespec *__rem);
 
+struct tm *gmtime_r(const time_t *timer, struct tm * result);
 
-extern int clock_getcpuclockid (pid_t __pid, clockid_t *__clock_id) __attribute__ ((__nothrow__ , __leaf__));
-
-
-
-
-extern int timer_create (clockid_t __clock_id,
-    struct sigevent *__restrict __evp,
-    timer_t *__restrict __timerid) __attribute__ ((__nothrow__ , __leaf__));
-
-
-extern int timer_delete (timer_t __timerid) __attribute__ ((__nothrow__ , __leaf__));
-
-
-extern int timer_settime (timer_t __timerid, int __flags,
-     const struct itimerspec *__restrict __value,
-     struct itimerspec *__restrict __ovalue) __attribute__ ((__nothrow__ , __leaf__));
-
-
-extern int timer_gettime (timer_t __timerid, struct itimerspec *__value)
-     __attribute__ ((__nothrow__ , __leaf__));
-
-
-extern int timer_getoverrun (timer_t __timerid) __attribute__ ((__nothrow__ , __leaf__));
-
-
-
-
-
-extern int timespec_get (struct timespec *__ts, int __base)
-     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1)));
-# 430 "/usr/include/time.h" 3 4
 
 # 26 "test.c" 2
-# 1 "/usr/include/stdio.h" 1 3 4
-# 29 "/usr/include/stdio.h" 3 4
+# 1 "/home/ber/tis-kernel-master/share/libc/stdio.h" 1 3 4
+# 39 "/home/ber/tis-kernel-master/share/libc/stdio.h" 3 4
+# 1 "/home/ber/tis-kernel-master/share/libc/stdarg.h" 1 3 4
+# 37 "/home/ber/tis-kernel-master/share/libc/stdarg.h" 3 4
+# 1 "/home/ber/tis-kernel-master/share/libc/__fc_define_va_list.h" 1 3 4
+# 14 "/home/ber/tis-kernel-master/share/libc/__fc_define_va_list.h" 3 4
+
+typedef __builtin_va_list va_list;
+
+# 38 "/home/ber/tis-kernel-master/share/libc/stdarg.h" 2 3 4
+# 40 "/home/ber/tis-kernel-master/share/libc/stdio.h" 2 3 4
+
+# 1 "/home/ber/tis-kernel-master/share/libc/errno.h" 1 3 4
+# 164 "/home/ber/tis-kernel-master/share/libc/errno.h" 3 4
+
+
+extern int __FC_errno;
 
 
 
 
-# 1 "/usr/lib/gcc/x86_64-linux-gnu/6/include/stddef.h" 1 3 4
-# 34 "/usr/include/stdio.h" 2 3 4
-# 44 "/usr/include/stdio.h" 3 4
-struct _IO_FILE;
+extern char *program_invocation_name;
+extern char *program_invocation_short_name;
 
 
+# 42 "/home/ber/tis-kernel-master/share/libc/stdio.h" 2 3 4
+# 1 "/home/ber/tis-kernel-master/share/libc/__fc_define_stat.h" 1 3 4
+# 39 "/home/ber/tis-kernel-master/share/libc/__fc_define_stat.h" 3 4
+# 1 "/home/ber/tis-kernel-master/share/libc/__fc_define_ino_t.h" 1 3 4
+# 37 "/home/ber/tis-kernel-master/share/libc/__fc_define_ino_t.h" 3 4
 
-typedef struct _IO_FILE FILE;
+typedef unsigned int ino_t;
 
+# 40 "/home/ber/tis-kernel-master/share/libc/__fc_define_stat.h" 2 3 4
+# 1 "/home/ber/tis-kernel-master/share/libc/__fc_define_uid_and_gid.h" 1 3 4
+# 37 "/home/ber/tis-kernel-master/share/libc/__fc_define_uid_and_gid.h" 3 4
 
+typedef unsigned int gid_t;
+typedef unsigned int uid_t;
 
+# 41 "/home/ber/tis-kernel-master/share/libc/__fc_define_stat.h" 2 3 4
 
+# 1 "/home/ber/tis-kernel-master/share/libc/__fc_define_blkcnt_t.h" 1 3 4
+# 36 "/home/ber/tis-kernel-master/share/libc/__fc_define_blkcnt_t.h" 3 4
+typedef unsigned int blkcnt_t;
+# 43 "/home/ber/tis-kernel-master/share/libc/__fc_define_stat.h" 2 3 4
+# 1 "/home/ber/tis-kernel-master/share/libc/__fc_define_blksize_t.h" 1 3 4
+# 37 "/home/ber/tis-kernel-master/share/libc/__fc_define_blksize_t.h" 3 4
 
-# 64 "/usr/include/stdio.h" 3 4
-typedef struct _IO_FILE __FILE;
-# 74 "/usr/include/stdio.h" 3 4
-# 1 "/usr/include/libio.h" 1 3 4
-# 31 "/usr/include/libio.h" 3 4
-# 1 "/usr/include/_G_config.h" 1 3 4
-# 15 "/usr/include/_G_config.h" 3 4
-# 1 "/usr/lib/gcc/x86_64-linux-gnu/6/include/stddef.h" 1 3 4
-# 16 "/usr/include/_G_config.h" 2 3 4
+typedef unsigned int blksize_t;
 
+# 44 "/home/ber/tis-kernel-master/share/libc/__fc_define_stat.h" 2 3 4
+# 1 "/home/ber/tis-kernel-master/share/libc/__fc_define_dev_t.h" 1 3 4
+# 37 "/home/ber/tis-kernel-master/share/libc/__fc_define_dev_t.h" 3 4
 
+typedef unsigned int dev_t;
 
-
-# 1 "/usr/include/wchar.h" 1 3 4
-# 82 "/usr/include/wchar.h" 3 4
-typedef struct
-{
-  int __count;
-  union
-  {
-
-    unsigned int __wch;
-
-
-
-    char __wchb[4];
-  } __value;
-} __mbstate_t;
-# 21 "/usr/include/_G_config.h" 2 3 4
-typedef struct
-{
-  __off_t __pos;
-  __mbstate_t __state;
-} _G_fpos_t;
-typedef struct
-{
-  __off64_t __pos;
-  __mbstate_t __state;
-} _G_fpos64_t;
-# 32 "/usr/include/libio.h" 2 3 4
-# 49 "/usr/include/libio.h" 3 4
-# 1 "/usr/lib/gcc/x86_64-linux-gnu/6/include/stdarg.h" 1 3 4
-# 40 "/usr/lib/gcc/x86_64-linux-gnu/6/include/stdarg.h" 3 4
-typedef __builtin_va_list __gnuc_va_list;
-# 50 "/usr/include/libio.h" 2 3 4
-# 144 "/usr/include/libio.h" 3 4
-struct _IO_jump_t; struct _IO_FILE;
+# 45 "/home/ber/tis-kernel-master/share/libc/__fc_define_stat.h" 2 3 4
+# 1 "/home/ber/tis-kernel-master/share/libc/__fc_define_mode_t.h" 1 3 4
+# 37 "/home/ber/tis-kernel-master/share/libc/__fc_define_mode_t.h" 3 4
 
 
+typedef unsigned int mode_t;
 
 
+# 46 "/home/ber/tis-kernel-master/share/libc/__fc_define_stat.h" 2 3 4
+# 1 "/home/ber/tis-kernel-master/share/libc/__fc_define_nlink_t.h" 1 3 4
+# 37 "/home/ber/tis-kernel-master/share/libc/__fc_define_nlink_t.h" 3 4
 
-typedef void _IO_lock_t;
+typedef unsigned int nlink_t;
+
+# 47 "/home/ber/tis-kernel-master/share/libc/__fc_define_stat.h" 2 3 4
+# 1 "/home/ber/tis-kernel-master/share/libc/__fc_define_off_t.h" 1 3 4
+# 38 "/home/ber/tis-kernel-master/share/libc/__fc_define_off_t.h" 3 4
+
+typedef long int off_t;
+typedef signed long off64_t;
+
+# 48 "/home/ber/tis-kernel-master/share/libc/__fc_define_stat.h" 2 3 4
 
 
 
 
 
-struct _IO_marker {
-  struct _IO_marker *_next;
-  struct _IO_FILE *_sbuf;
+struct statfs {
+ unsigned int f_type;
+ unsigned int f_bsize;
+ unsigned int f_blocks;
+ unsigned int f_bfree;
+ unsigned int f_bavail;
+ unsigned int f_files;
+ unsigned int f_ffree;
+ unsigned int f_fsid;
+ unsigned int f_namelen;
+ unsigned int f_frsize;
+ unsigned int f_flags;
+ unsigned int f_spare[4];
+};
 
-
-
-  int _pos;
-# 173 "/usr/include/libio.h" 3 4
+struct stat {
+  dev_t st_dev;
+  ino_t st_ino;
+  mode_t st_mode;
+  nlink_t st_nlink;
+  uid_t st_uid;
+  gid_t st_gid;
+  dev_t st_rdev;
+  off_t st_size;
+  time_t st_atime;
+  time_t st_mtime;
+  time_t st_ctime;
+  blksize_t st_blksize;
+  blkcnt_t st_blocks;
 };
 
 
-enum __codecvt_result
-{
-  __codecvt_ok,
-  __codecvt_partial,
-  __codecvt_error,
-  __codecvt_noconv
-};
-# 241 "/usr/include/libio.h" 3 4
-struct _IO_FILE {
-  int _flags;
+# 43 "/home/ber/tis-kernel-master/share/libc/stdio.h" 2 3 4
+# 1 "/home/ber/tis-kernel-master/share/libc/__fc_define_fpos_t.h" 1 3 4
+# 37 "/home/ber/tis-kernel-master/share/libc/__fc_define_fpos_t.h" 3 4
 
 
+struct __fc_pos_t { unsigned long __fc_stdio_position; };
+typedef struct __fc_pos_t fpos_t;
 
 
-  char* _IO_read_ptr;
-  char* _IO_read_end;
-  char* _IO_read_base;
-  char* _IO_write_base;
-  char* _IO_write_ptr;
-  char* _IO_write_end;
-  char* _IO_buf_base;
-  char* _IO_buf_end;
-
-  char *_IO_save_base;
-  char *_IO_backup_base;
-  char *_IO_save_end;
-
-  struct _IO_marker *_markers;
-
-  struct _IO_FILE *_chain;
-
-  int _fileno;
+# 44 "/home/ber/tis-kernel-master/share/libc/stdio.h" 2 3 4
+# 1 "/home/ber/tis-kernel-master/share/libc/__fc_define_file.h" 1 3 4
+# 40 "/home/ber/tis-kernel-master/share/libc/__fc_define_file.h" 3 4
 
 
-
-  int _flags2;
-
-  __off_t _old_offset;
-
-
-
-  unsigned short _cur_column;
-  signed char _vtable_offset;
-  char _shortbuf[1];
-
-
-
-  _IO_lock_t *_lock;
-# 289 "/usr/include/libio.h" 3 4
-  __off64_t _offset;
-
-
-
-
-
-
-
-  void *__pad1;
-  void *__pad2;
-  void *__pad3;
-  void *__pad4;
-
-  size_t __pad5;
-  int _mode;
-
-  char _unused2[15 * sizeof (int) - 4 * sizeof (void *) - sizeof (size_t)];
-
+struct __fc_fs_file {
+  char *__fc_fullpath;
+  struct stat * __fc_stat;
+  unsigned char * (*__fc_content) (void);
+  unsigned char * __fc_data;
 };
 
+struct __fc_FILE {
+  unsigned int __fc_stdio_id;
+  fpos_t __fc_position;
+  char __fc_error;
+  char __fc_eof;
+  int __fc_flags;
+  struct stat* __fc_inode;
+  struct __fc_fs_file* __fc_file;
+};
+typedef struct __fc_FILE FILE;
 
-typedef struct _IO_FILE _IO_FILE;
 
+# 45 "/home/ber/tis-kernel-master/share/libc/stdio.h" 2 3 4
+# 57 "/home/ber/tis-kernel-master/share/libc/stdio.h" 3 4
+# 1 "/home/ber/tis-kernel-master/share/libc/__fc_define_seek_macros.h" 1 3 4
+# 58 "/home/ber/tis-kernel-master/share/libc/stdio.h" 2 3 4
 
-struct _IO_FILE_plus;
 
-extern struct _IO_FILE_plus _IO_2_1_stdin_;
-extern struct _IO_FILE_plus _IO_2_1_stdout_;
-extern struct _IO_FILE_plus _IO_2_1_stderr_;
-# 333 "/usr/include/libio.h" 3 4
-typedef __ssize_t __io_read_fn (void *__cookie, char *__buf, size_t __nbytes);
 
 
 
+extern FILE * __fc_stderr;
 
 
+extern FILE * __fc_stdin;
 
 
-typedef __ssize_t __io_write_fn (void *__cookie, const char *__buf,
-     size_t __n);
+extern FILE * __fc_stdout;
+# 79 "/home/ber/tis-kernel-master/share/libc/stdio.h" 3 4
+int remove(const char *__filename);
 
 
+int rename(const char *__old_name, const char *__new_name);
 
 
 
+FILE *tmpfile(void);
 
 
-typedef int __io_seek_fn (void *__cookie, __off64_t *__pos, int __w);
 
 
-typedef int __io_close_fn (void *__cookie);
-# 385 "/usr/include/libio.h" 3 4
-extern int __underflow (_IO_FILE *);
-extern int __uflow (_IO_FILE *);
-extern int __overflow (_IO_FILE *, int);
-# 429 "/usr/include/libio.h" 3 4
-extern int _IO_getc (_IO_FILE *__fp);
-extern int _IO_putc (int __c, _IO_FILE *__fp);
-extern int _IO_feof (_IO_FILE *__fp) __attribute__ ((__nothrow__ , __leaf__));
-extern int _IO_ferror (_IO_FILE *__fp) __attribute__ ((__nothrow__ , __leaf__));
 
-extern int _IO_peekc_locked (_IO_FILE *__fp);
 
+char *tmpnam(char *__s);
 
 
 
 
-extern void _IO_flockfile (_IO_FILE *) __attribute__ ((__nothrow__ , __leaf__));
-extern void _IO_funlockfile (_IO_FILE *) __attribute__ ((__nothrow__ , __leaf__));
-extern int _IO_ftrylockfile (_IO_FILE *) __attribute__ ((__nothrow__ , __leaf__));
-# 459 "/usr/include/libio.h" 3 4
-extern int _IO_vfscanf (_IO_FILE * __restrict, const char * __restrict,
-   __gnuc_va_list, int *__restrict);
-extern int _IO_vfprintf (_IO_FILE *__restrict, const char *__restrict,
-    __gnuc_va_list);
-extern __ssize_t _IO_padn (_IO_FILE *, int, __ssize_t);
-extern size_t _IO_sgetn (_IO_FILE *, void *, size_t);
 
-extern __off64_t _IO_seekoff (_IO_FILE *, __off64_t, int, int);
-extern __off64_t _IO_seekpos (_IO_FILE *, __off64_t, int);
 
-extern void _IO_free_backup_area (_IO_FILE *) __attribute__ ((__nothrow__ , __leaf__));
-# 75 "/usr/include/stdio.h" 2 3 4
 
+int fclose(FILE *__stream);
 
 
 
-typedef __gnuc_va_list va_list;
-# 110 "/usr/include/stdio.h" 3 4
 
 
-typedef _G_fpos_t fpos_t;
 
 
+int fflush(FILE *__stream);
 
+FILE __fc_fopen[512];
+extern FILE* const __p_fc_fopen = __fc_fopen;
 
-# 166 "/usr/include/stdio.h" 3 4
-# 1 "/usr/include/x86_64-linux-gnu/bits/stdio_lim.h" 1 3 4
-# 167 "/usr/include/stdio.h" 2 3 4
 
 
 
-extern struct _IO_FILE *stdin;
-extern struct _IO_FILE *stdout;
-extern struct _IO_FILE *stderr;
 
 
 
+FILE *fopen(const char * __filename,
+     const char * __mode);
 
 
 
 
-extern int remove (const char *__filename) __attribute__ ((__nothrow__ , __leaf__));
+FILE *fdopen(int __fildes, const char *__mode);
 
-extern int rename (const char *__old, const char *__new) __attribute__ ((__nothrow__ , __leaf__));
 
 
 
+FILE *freopen(const char * __filename,
+              const char * __mode,
+              FILE * __stream);
 
-extern int renameat (int __oldfd, const char *__old, int __newfd,
-       const char *__new) __attribute__ ((__nothrow__ , __leaf__));
 
+void setbuf(FILE * __stream,
+     char * buf);
 
 
+int setvbuf(FILE * __stream,
+     char * buf,
+     int __mode, size_t size);
 
 
 
+int fprintf(FILE * __stream,
+     const char * format, ...);
 
 
-extern FILE *tmpfile (void) ;
-# 211 "/usr/include/stdio.h" 3 4
-extern char *tmpnam (char *__s) __attribute__ ((__nothrow__ , __leaf__)) ;
 
 
+int fscanf(FILE * __stream,
+     const char * format, ...);
 
 
 
-extern char *tmpnam_r (char *__s) __attribute__ ((__nothrow__ , __leaf__)) ;
-# 229 "/usr/include/stdio.h" 3 4
-extern char *tempnam (const char *__dir, const char *__pfx)
-     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__malloc__)) ;
 
+int printf(const char * format, ...);
 
 
 
 
+int scanf(const char * format, ...);
 
 
 
-extern int fclose (FILE *__stream);
 
+int snprintf(char * __s, size_t n,
+    const char * format, ...);
 
 
 
-extern int fflush (FILE *__stream);
 
-# 254 "/usr/include/stdio.h" 3 4
-extern int fflush_unlocked (FILE *__stream);
-# 268 "/usr/include/stdio.h" 3 4
+int sprintf(char * __s,
+     const char * format, ...);
 
 
+int sscanf(const char * __s,
+     const char * format, ...);
 
 
+int vfprintf(FILE * __stream,
+     const char * format,
+     va_list arg);
 
 
-extern FILE *fopen (const char *__restrict __filename,
-      const char *__restrict __modes) ;
 
+int vfscanf(FILE * __stream,
+     const char * format,
+     va_list arg);
 
 
+int vprintf(const char * format,
+     va_list arg);
 
-extern FILE *freopen (const char *__restrict __filename,
-        const char *__restrict __modes,
-        FILE *__restrict __stream) ;
-# 297 "/usr/include/stdio.h" 3 4
 
-# 308 "/usr/include/stdio.h" 3 4
-extern FILE *fdopen (int __fd, const char *__modes) __attribute__ ((__nothrow__ , __leaf__)) ;
-# 321 "/usr/include/stdio.h" 3 4
-extern FILE *fmemopen (void *__s, size_t __len, const char *__modes)
-  __attribute__ ((__nothrow__ , __leaf__)) ;
 
+int vscanf(const char * format,
+     va_list arg);
 
 
 
-extern FILE *open_memstream (char **__bufloc, size_t *__sizeloc) __attribute__ ((__nothrow__ , __leaf__)) ;
+int vsnprintf(char * __s, size_t n,
+     const char * format,
+     va_list arg);
 
 
 
+int vsprintf(char * __s,
+     const char * format,
+     va_list arg);
 
 
+int vsscanf(const char * __s,
+     const char * format,
+     va_list arg);
 
-extern void setbuf (FILE *__restrict __stream, char *__restrict __buf) __attribute__ ((__nothrow__ , __leaf__));
 
 
+int fgetc(FILE *__stream);
 
-extern int setvbuf (FILE *__restrict __stream, char *__restrict __buf,
-      int __modes, size_t __n) __attribute__ ((__nothrow__ , __leaf__));
 
 
 
 
+char *fgets(char * __s, int n,
+    FILE * __stream);
 
-extern void setbuffer (FILE *__restrict __stream, char *__restrict __buf,
-         size_t __size) __attribute__ ((__nothrow__ , __leaf__));
 
+int fputc(int c, FILE *__stream);
 
-extern void setlinebuf (FILE *__stream) __attribute__ ((__nothrow__ , __leaf__));
 
+int fputs(const char * __s,
+     FILE * __stream);
 
 
+int getc(FILE *__stream);
 
 
+int getchar(void);
 
 
 
-extern int fprintf (FILE *__restrict __stream,
-      const char *__restrict __format, ...);
 
 
+char *gets(char *__s);
 
 
-extern int printf (const char *__restrict __format, ...);
+int putc(int c, FILE *__stream);
 
-extern int sprintf (char *__restrict __s,
-      const char *__restrict __format, ...) __attribute__ ((__nothrow__));
 
+int putchar(int c);
 
 
+int puts(const char *__s);
 
 
-extern int vfprintf (FILE *__restrict __s, const char *__restrict __format,
-       __gnuc_va_list __arg);
+int ungetc(int c, FILE *__stream);
+# 269 "/home/ber/tis-kernel-master/share/libc/stdio.h" 3 4
+size_t fread(void * ptr,
+     size_t size, size_t nmemb,
+     FILE * __stream);
+# 280 "/home/ber/tis-kernel-master/share/libc/stdio.h" 3 4
+size_t fwrite(const void * ptr,
+     size_t size, size_t nmemb,
+     FILE * __stream);
 
 
+int fgetpos(FILE * __stream,
+     fpos_t * pos);
 
 
-extern int vprintf (const char *__restrict __format, __gnuc_va_list __arg);
 
-extern int vsprintf (char *__restrict __s, const char *__restrict __format,
-       __gnuc_va_list __arg) __attribute__ ((__nothrow__));
+int fseek(FILE *__stream, long int __offset, int __whence);
 
 
+int fsetpos(FILE *__stream, const fpos_t *pos);
 
 
+long int ftell(FILE *__stream);
 
-extern int snprintf (char *__restrict __s, size_t __maxlen,
-       const char *__restrict __format, ...)
-     __attribute__ ((__nothrow__)) __attribute__ ((__format__ (__printf__, 3, 4)));
 
-extern int vsnprintf (char *__restrict __s, size_t __maxlen,
-        const char *__restrict __format, __gnuc_va_list __arg)
-     __attribute__ ((__nothrow__)) __attribute__ ((__format__ (__printf__, 3, 0)));
+void rewind(FILE *__stream);
 
-# 414 "/usr/include/stdio.h" 3 4
-extern int vdprintf (int __fd, const char *__restrict __fmt,
-       __gnuc_va_list __arg)
-     __attribute__ ((__format__ (__printf__, 2, 0)));
-extern int dprintf (int __fd, const char *__restrict __fmt, ...)
-     __attribute__ ((__format__ (__printf__, 2, 3)));
 
+void clearerr(FILE *__stream);
 
 
+int feof(FILE *__stream);
 
 
+int fileno(FILE *__stream);
 
 
+void flockfile(FILE *__stream);
 
-extern int fscanf (FILE *__restrict __stream,
-     const char *__restrict __format, ...) ;
 
+void funlockfile(FILE *__stream);
 
 
+int ftrylockfile(FILE *__stream);
 
-extern int scanf (const char *__restrict __format, ...) ;
 
-extern int sscanf (const char *__restrict __s,
-     const char *__restrict __format, ...) __attribute__ ((__nothrow__ , __leaf__));
-# 445 "/usr/include/stdio.h" 3 4
-extern int fscanf (FILE *__restrict __stream, const char *__restrict __format, ...) __asm__ ("" "__isoc99_fscanf")
+int ferror(FILE *__stream);
 
-                               ;
-extern int scanf (const char *__restrict __format, ...) __asm__ ("" "__isoc99_scanf")
-                              ;
-extern int sscanf (const char *__restrict __s, const char *__restrict __format, ...) __asm__ ("" "__isoc99_sscanf") __attribute__ ((__nothrow__ , __leaf__))
 
-                      ;
-# 465 "/usr/include/stdio.h" 3 4
+void perror(const char *__s);
 
 
+int getc_unlocked(FILE *__stream);
 
+int getchar_unlocked(void);
 
+int putc_unlocked(int c, FILE *__stream);
 
+int putchar_unlocked(int c);
 
 
+void clearerr_unlocked(FILE *__stream);
 
-extern int vfscanf (FILE *__restrict __s, const char *__restrict __format,
-      __gnuc_va_list __arg)
-     __attribute__ ((__format__ (__scanf__, 2, 0))) ;
+int feof_unlocked(FILE *__stream);
 
+int ferror_unlocked(FILE *__stream);
 
+int fileno_unlocked(FILE *__stream);
+int fflush_unlocked(FILE *__stream);
+int fgetc_unlocked(FILE *__stream);
+int fputc_unlocked(int c, FILE *__stream);
+size_t fread_unlocked(void *ptr, size_t size, size_t n,
+                             FILE *__stream);
+size_t fwrite_unlocked(const void *ptr, size_t size, size_t n,
+         FILE *__stream);
 
-
-
-extern int vscanf (const char *__restrict __format, __gnuc_va_list __arg)
-     __attribute__ ((__format__ (__scanf__, 1, 0))) ;
-
-
-extern int vsscanf (const char *__restrict __s,
-      const char *__restrict __format, __gnuc_va_list __arg)
-     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__format__ (__scanf__, 2, 0)));
-# 496 "/usr/include/stdio.h" 3 4
-extern int vfscanf (FILE *__restrict __s, const char *__restrict __format, __gnuc_va_list __arg) __asm__ ("" "__isoc99_vfscanf")
-
-
-
-     __attribute__ ((__format__ (__scanf__, 2, 0))) ;
-extern int vscanf (const char *__restrict __format, __gnuc_va_list __arg) __asm__ ("" "__isoc99_vscanf")
-
-     __attribute__ ((__format__ (__scanf__, 1, 0))) ;
-extern int vsscanf (const char *__restrict __s, const char *__restrict __format, __gnuc_va_list __arg) __asm__ ("" "__isoc99_vsscanf") __attribute__ ((__nothrow__ , __leaf__))
-
-
-
-     __attribute__ ((__format__ (__scanf__, 2, 0)));
-# 524 "/usr/include/stdio.h" 3 4
-
-
-
-
-
-
-
-
-
-extern int fgetc (FILE *__stream);
-extern int getc (FILE *__stream);
-
-
-
-
-
-extern int getchar (void);
-
-# 552 "/usr/include/stdio.h" 3 4
-extern int getc_unlocked (FILE *__stream);
-extern int getchar_unlocked (void);
-# 563 "/usr/include/stdio.h" 3 4
-extern int fgetc_unlocked (FILE *__stream);
-
-
-
-
-
-
-
-
-
-
-
-extern int fputc (int __c, FILE *__stream);
-extern int putc (int __c, FILE *__stream);
-
-
-
-
-
-extern int putchar (int __c);
-
-# 596 "/usr/include/stdio.h" 3 4
-extern int fputc_unlocked (int __c, FILE *__stream);
-
-
-
-
-
-
-
-extern int putc_unlocked (int __c, FILE *__stream);
-extern int putchar_unlocked (int __c);
-
-
-
-
-
-
-extern int getw (FILE *__stream);
-
-
-extern int putw (int __w, FILE *__stream);
-
-
-
-
-
-
-
-
-extern char *fgets (char *__restrict __s, int __n, FILE *__restrict __stream)
-     ;
-# 642 "/usr/include/stdio.h" 3 4
-
-# 667 "/usr/include/stdio.h" 3 4
-extern __ssize_t __getdelim (char **__restrict __lineptr,
-          size_t *__restrict __n, int __delimiter,
-          FILE *__restrict __stream) ;
-extern __ssize_t getdelim (char **__restrict __lineptr,
-        size_t *__restrict __n, int __delimiter,
-        FILE *__restrict __stream) ;
-
-
-
-
-
-
-
-extern __ssize_t getline (char **__restrict __lineptr,
-       size_t *__restrict __n,
-       FILE *__restrict __stream) ;
-
-
-
-
-
-
-
-
-extern int fputs (const char *__restrict __s, FILE *__restrict __stream);
-
-
-
-
-
-extern int puts (const char *__s);
-
-
-
-
-
-
-extern int ungetc (int __c, FILE *__stream);
-
-
-
-
-
-
-extern size_t fread (void *__restrict __ptr, size_t __size,
-       size_t __n, FILE *__restrict __stream) ;
-
-
-
-
-extern size_t fwrite (const void *__restrict __ptr, size_t __size,
-        size_t __n, FILE *__restrict __s);
-
-# 739 "/usr/include/stdio.h" 3 4
-extern size_t fread_unlocked (void *__restrict __ptr, size_t __size,
-         size_t __n, FILE *__restrict __stream) ;
-extern size_t fwrite_unlocked (const void *__restrict __ptr, size_t __size,
-          size_t __n, FILE *__restrict __stream);
-
-
-
-
-
-
-
-
-extern int fseek (FILE *__stream, long int __off, int __whence);
-
-
-
-
-extern long int ftell (FILE *__stream) ;
-
-
-
-
-extern void rewind (FILE *__stream);
-
-# 775 "/usr/include/stdio.h" 3 4
-extern int fseeko (FILE *__stream, __off_t __off, int __whence);
-
-
-
-
-extern __off_t ftello (FILE *__stream) ;
-# 794 "/usr/include/stdio.h" 3 4
-
-
-
-
-
-
-extern int fgetpos (FILE *__restrict __stream, fpos_t *__restrict __pos);
-
-
-
-
-extern int fsetpos (FILE *__stream, const fpos_t *__pos);
-# 817 "/usr/include/stdio.h" 3 4
-
-# 826 "/usr/include/stdio.h" 3 4
-
-
-extern void clearerr (FILE *__stream) __attribute__ ((__nothrow__ , __leaf__));
-
-extern int feof (FILE *__stream) __attribute__ ((__nothrow__ , __leaf__)) ;
-
-extern int ferror (FILE *__stream) __attribute__ ((__nothrow__ , __leaf__)) ;
-
-
-
-
-extern void clearerr_unlocked (FILE *__stream) __attribute__ ((__nothrow__ , __leaf__));
-extern int feof_unlocked (FILE *__stream) __attribute__ ((__nothrow__ , __leaf__)) ;
-extern int ferror_unlocked (FILE *__stream) __attribute__ ((__nothrow__ , __leaf__)) ;
-
-
-
-
-
-
-
-
-extern void perror (const char *__s);
-
-
-
-
-
-
-# 1 "/usr/include/x86_64-linux-gnu/bits/sys_errlist.h" 1 3 4
-# 26 "/usr/include/x86_64-linux-gnu/bits/sys_errlist.h" 3 4
-extern int sys_nerr;
-extern const char *const sys_errlist[];
-# 856 "/usr/include/stdio.h" 2 3 4
-
-
-
-
-extern int fileno (FILE *__stream) __attribute__ ((__nothrow__ , __leaf__)) ;
-
-
-
-
-extern int fileno_unlocked (FILE *__stream) __attribute__ ((__nothrow__ , __leaf__)) ;
-# 874 "/usr/include/stdio.h" 3 4
-extern FILE *popen (const char *__command, const char *__modes) ;
-
-
-
-
-
-extern int pclose (FILE *__stream);
-
-
-
-
-
-extern char *ctermid (char *__s) __attribute__ ((__nothrow__ , __leaf__));
-# 914 "/usr/include/stdio.h" 3 4
-extern void flockfile (FILE *__stream) __attribute__ ((__nothrow__ , __leaf__));
-
-
-
-extern int ftrylockfile (FILE *__stream) __attribute__ ((__nothrow__ , __leaf__)) ;
-
-
-extern void funlockfile (FILE *__stream) __attribute__ ((__nothrow__ , __leaf__));
-# 944 "/usr/include/stdio.h" 3 4
+char *fgets_unlocked(char *__s, int n, FILE *__stream);
+int fputs_unlocked(const char *__s, FILE *__stream);
+# 375 "/home/ber/tis-kernel-master/share/libc/stdio.h" 3 4
 
 # 27 "test.c" 2
 
-# 1 "/usr/include/x86_64-linux-gnu/sys/time.h" 1 3 4
-# 27 "/usr/include/x86_64-linux-gnu/sys/time.h" 3 4
-# 1 "/usr/include/x86_64-linux-gnu/bits/time.h" 1 3 4
-# 28 "/usr/include/x86_64-linux-gnu/sys/time.h" 2 3 4
-# 37 "/usr/include/x86_64-linux-gnu/sys/time.h" 3 4
+# 1 "/home/ber/tis-kernel-master/share/libc/sys/time.h" 1 3 4
+# 37 "/home/ber/tis-kernel-master/share/libc/sys/time.h" 3 4
+# 1 "/home/ber/tis-kernel-master/share/libc/__fc_define_time_t.h" 1 3 4
+# 38 "/home/ber/tis-kernel-master/share/libc/sys/time.h" 2 3 4
+# 1 "/home/ber/tis-kernel-master/share/libc/__fc_define_fd_set_t.h" 1 3 4
+# 37 "/home/ber/tis-kernel-master/share/libc/__fc_define_fd_set_t.h" 3 4
 
-# 55 "/usr/include/x86_64-linux-gnu/sys/time.h" 3 4
-struct timezone
-  {
-    int tz_minuteswest;
-    int tz_dsttime;
-  };
+typedef struct {char __fc_fd_set;} fd_set;
 
-typedef struct timezone *__restrict __timezone_ptr_t;
-# 71 "/usr/include/x86_64-linux-gnu/sys/time.h" 3 4
-extern int gettimeofday (struct timeval *__restrict __tv,
-    __timezone_ptr_t __tz) __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1)));
+void FD_CLR(int fd, fd_set *fdset);
 
+int FD_ISSET(int fd, fd_set *fdset);
 
+void FD_SET(int fd, fd_set *fdset);
 
+void FD_ZERO(fd_set *fdset);
 
-extern int settimeofday (const struct timeval *__tv,
-    const struct timezone *__tz)
-     __attribute__ ((__nothrow__ , __leaf__));
+# 39 "/home/ber/tis-kernel-master/share/libc/sys/time.h" 2 3 4
+# 1 "/home/ber/tis-kernel-master/share/libc/__fc_define_timespec.h" 1 3 4
+# 40 "/home/ber/tis-kernel-master/share/libc/sys/time.h" 2 3 4
+# 1 "/home/ber/tis-kernel-master/share/libc/__fc_define_timeval.h" 1 3 4
+# 41 "/home/ber/tis-kernel-master/share/libc/sys/time.h" 2 3 4
 
-
-
-
-
-extern int adjtime (const struct timeval *__delta,
-      struct timeval *__olddelta) __attribute__ ((__nothrow__ , __leaf__));
-
-
-
-
-enum __itimer_which
-  {
-
-    ITIMER_REAL = 0,
-
-
-    ITIMER_VIRTUAL = 1,
-
-
-
-    ITIMER_PROF = 2
-
-  };
-
-
-
-struct itimerval
-  {
-
-    struct timeval it_interval;
-
-    struct timeval it_value;
-  };
+struct timezone {
+  int tz_minuteswest;
+  int tz_dsttime;
+};
 
 
 
 
 
 
-typedef int __itimer_which_t;
+int utimes(const char *path, const struct timeval times[2]);
+# 80 "/home/ber/tis-kernel-master/share/libc/sys/time.h" 3 4
+int gettimeofday(struct timeval *tv, struct timezone *tz);
 
 
 
 
-extern int getitimer (__itimer_which_t __which,
-        struct itimerval *__value) __attribute__ ((__nothrow__ , __leaf__));
 
-
-
-
-extern int setitimer (__itimer_which_t __which,
-        const struct itimerval *__restrict __new,
-        struct itimerval *__restrict __old) __attribute__ ((__nothrow__ , __leaf__));
-
-
-
-
-extern int utimes (const char *__file, const struct timeval __tvp[2])
-     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1)));
-
-
-
-extern int lutimes (const char *__file, const struct timeval __tvp[2])
-     __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1)));
-
-
-extern int futimes (int __fd, const struct timeval __tvp[2]) __attribute__ ((__nothrow__ , __leaf__));
-# 189 "/usr/include/x86_64-linux-gnu/sys/time.h" 3 4
-
+int settimeofday(const struct timeval *tv, const struct timezone *tz);
 # 29 "test.c" 2
 # 38 "test.c"
 
@@ -2575,7 +1226,7 @@ uint64_t temps() {
  struct timeval tv;
  gettimeofday(&tv, 
 # 82 "test.c" 3 4
-                  ((void *)0)
+                  ((void*)0)
 # 82 "test.c"
                       );
  return (uint64_t)tv.tv_sec*1000 + (tv.tv_usec/1000);
@@ -2608,15 +1259,7 @@ void essai_split_combine(int bits, int thresh, int *tps_gen_, int *tps_rec_) {
 
 
 
- secret = 
-# 142 "test.c" 3 4
-         __builtin_alloca (
-# 142 "test.c"
-         1256
-# 142 "test.c" 3 4
-         )
-# 142 "test.c"
-                     ;
+ secret = alloca(1256);
 
 
  random_bytes(secret, 1256);
@@ -2644,15 +1287,7 @@ void essai_split_combine(int bits, int thresh, int *tps_gen_, int *tps_rec_) {
 # 164 "test.c"
                           ;
 
- part = 
-# 166 "test.c" 3 4
-       __builtin_alloca (
-# 166 "test.c"
-       ctx_split->size*8
-# 166 "test.c" 3 4
-       )
-# 166 "test.c"
-                                ; memset(part, 0, ctx_split->size*8);
+ part = alloca(ctx_split->size*8); memset(part, 0, ctx_split->size*8);
  lsss_set_secret(ctx_split, secret);
  avant=temps();
 
@@ -2671,15 +1306,7 @@ void essai_split_combine(int bits, int thresh, int *tps_gen_, int *tps_rec_) {
  avant=temps();
 
  if (lsss_combine(ctx_combine) == 0) {
-  buf = 
-# 185 "test.c" 3 4
-       __builtin_alloca (
-# 185 "test.c"
-       ctx_split->size*8
-# 185 "test.c" 3 4
-       )
-# 185 "test.c"
-                                ;
+  buf = alloca(ctx_split->size*8);
   memset(buf, 0, ctx_split->size*8);
   lsss_get_secret(ctx_combine, buf);
  } else {
@@ -2714,7 +1341,7 @@ void performance_test(void) {
 
  srand (time (
 # 218 "test.c" 3 4
-             ((void *)0)
+             ((void*)0)
 # 218 "test.c"
                  ));
  lsss_register_random_source(random_bytes);
@@ -2738,7 +1365,7 @@ void performance_test(void) {
   essai_split_combine(bits, thresh, &tg, &tr);
   printf("."); fflush(
 # 238 "test.c" 3 4
-                     stdout
+                     (__fc_stdout)
 # 238 "test.c"
                            );
   tps_gen[b][t] += tg;
@@ -2817,16 +1444,16 @@ void fuzzing_test(void) {
   int t = 3+2*(rand()%4);
   printf("b=%d t=%d  %d%% done           \r", b, t, (uint64_t)100*n/100); fflush(
 # 313 "test.c" 3 4
-                                                                                    stdout
+                                                                                    (__fc_stdout)
 # 313 "test.c"
                                                                                           );
   essai_split_combine(b,t, 
 # 314 "test.c" 3 4
-                          ((void *)0)
+                          ((void*)0)
 # 314 "test.c"
                               , 
 # 314 "test.c" 3 4
-                                ((void *)0)
+                                ((void*)0)
 # 314 "test.c"
                                     );
 
